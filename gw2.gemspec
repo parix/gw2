@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.authors     = ["Chris Rosario"]
   s.email       = "c.allen.rosario@gmail.com"
   s.files       = ["lib/gw2.rb", "lib/gw2/event.rb", "lib/gw2/event/events.rb", "lib/gw2/event/event_names.rb", "lib/gw2/event/map_names.rb", "lib/gw2/event/world_names.rb", "lib/gw2/wvw.rb", "lib/gw2/wvw/matches.rb", "lib/gw2/wvw/match_details.rb", "lib/gw2/wvw/objective_names.rb", "lib/gw2/item.rb", "lib/gw2/item/items.rb", "lib/gw2/item/item_details.rb", "lib/gw2/recipe.rb", "lib/gw2/recipe/recipes.rb", "lib/gw2/recipe/recipe_details.rb"]
-  s.homepage    = "http://rubygems.org/gems/gw2"
+  s.homepage    = "https://github.com/callenrosario/gw2"
 end
