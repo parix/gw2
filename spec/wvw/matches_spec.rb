@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe GW2API::WvW do
+describe GW2::WvW do
   describe "methods" do
     context "#matches" do
       before :each do
@@ -14,11 +14,11 @@ describe GW2API::WvW do
       end
 
       it "exists" do
-        GW2API::WvW.respond_to?(:matches).should == true
+        GW2::WvW.respond_to?(:matches).should == true
       end
   
       it "returns the correct JSON parsed data" do
-        GW2API::WvW.matches.should == { "wvw_matches" => @matches }
+        GW2::WvW.matches.should == { "wvw_matches" => @matches }
       end
     end
   end

@@ -1,10 +1,10 @@
-module GW2API
-  module Event
-    def self.map_names
+module GW2
+  module WvW
+    def self.objective_names
       response = request(
         action: "Get",
         ssl: true,
-        url: "#{BASE_URL}/map_names.json"
+        url: "#{BASE_URL}/wvw/objective_names.json"
       )
 
       return JSON.parse(response.body)

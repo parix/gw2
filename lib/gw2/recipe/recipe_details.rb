@@ -1,6 +1,6 @@
-module GW2API
+module GW2
   module Recipe 
-    def self.recipe_details(recipe_id)
+    def self.details(recipe_id)
       response = request(
         action: "Get",
         ssl: true,

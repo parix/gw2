@@ -1,10 +1,10 @@
-module GW2API
-  module WvW
-    def self.objective_names
+module GW2
+  module Item
+    def self.all
       response = request(
         action: "Get",
         ssl: true,
-        url: "#{BASE_URL}/wvw/objective_names.json"
+        url: "#{BASE_URL}/items.json"
       )
 
       return JSON.parse(response.body)

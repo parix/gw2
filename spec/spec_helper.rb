@@ -1,6 +1,6 @@
 require "rspec"
 require "webmock/rspec"
-require "gw2api"
+require "gw2"
 
 RSpec.configure do |config|
   # ## Mock Framework

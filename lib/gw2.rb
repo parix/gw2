@@ -1,11 +1,11 @@
 require "net/https"
 require "json"
-require "gw2api/event"
-require "gw2api/wvw"
-require "gw2api/item"
-require "gw2api/recipe"
+require "gw2/event"
+require "gw2/wvw"
+require "gw2/item"
+require "gw2/recipe"
 
-module GW2API
+module GW2
   BASE_URL = "https://api.guildwars2.com/v1" 
 
   def request(attr = { action: "Get" })

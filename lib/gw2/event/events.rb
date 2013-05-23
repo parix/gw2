@@ -1,8 +1,12 @@
-module GW2API
+module GW2
   module Event
     PARAMS_FILTER = [:world_id, :map_id, :event_id] 
 
-    def self.events(query_params = {})
+    def self.all
+      self.where
+    end
+
+    def self.where(query_params = {})
       url = "#{BASE_URL}/events.json"
       query_string = query_params.select{ |k,v| PARAMS_FILTER.include?(k) }.collect{ |k,v| "#{k}=#{v}" }.join("&")
       url += "?#{query_string}" unless query_string.empty?

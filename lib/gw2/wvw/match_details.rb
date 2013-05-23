@@ -1,4 +1,4 @@
-module GW2API
+module GW2
   module WvW
     def self.match_details(match_id)
       response = request(

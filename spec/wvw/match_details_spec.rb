@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe GW2API::WvW do
+describe GW2::WvW do
   describe "methods" do
     context "#match_details" do
       before :each do
@@ -97,11 +97,11 @@ describe GW2API::WvW do
       end
 
       it "exists" do
-        GW2API::WvW.respond_to?(:match_details).should == true
+        GW2::WvW.respond_to?(:match_details).should == true
       end
   
       it "returns the correct JSON parsed data" do
-        GW2API::WvW.match_details("2-3").should == @match_details
+        GW2::WvW.match_details("2-3").should == @match_details
       end
     end
   end

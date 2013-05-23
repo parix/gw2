@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe GW2API::Recipe do
+describe GW2::Recipe do
   describe "methods" do
-    context "#recipe_details" do
+    context "#details" do
       before :each do
         @recipe_details = {
           "recipe_id" => "1275",
@@ -23,11 +23,11 @@ describe GW2API::Recipe do
       end
 
       it "exists" do
-        GW2API::Recipe.respond_to?(:recipe_details).should == true
+        GW2::Recipe.respond_to?(:details).should == true
       end
   
       it "returns the correct JSON parsed data" do
-        GW2API::Recipe.recipe_details(1275).should == @recipe_details
+        GW2::Recipe.details(1275).should == @recipe_details
       end
     end
   end

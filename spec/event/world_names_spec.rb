@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe GW2API::Event do
+describe GW2::Event do
   describe "methods" do
     context "#world_names" do
       before :each do
@@ -11,11 +11,11 @@ describe GW2API::Event do
       end
 
       it "exists" do
-        GW2API::Event.respond_to?(:world_names).should == true
+        GW2::Event.respond_to?(:world_names).should == true
       end
 
       it "returns the correct JSON parsed data" do
-        GW2API::Event.world_names.should == JSON.parse(@world_names)
+        GW2::Event.world_names.should == JSON.parse(@world_names)
       end
     end
   end

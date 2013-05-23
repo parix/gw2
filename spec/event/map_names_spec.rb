@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe GW2API::Event do
+describe GW2::Event do
   describe "methods" do
     context "#map_names" do
       before :each do
@@ -11,11 +11,11 @@ describe GW2API::Event do
       end
 
       it "exists" do
-        GW2API::Event.respond_to?(:map_names).should == true
+        GW2::Event.respond_to?(:map_names).should == true
       end
 
       it "returns the correct JSON parsed data" do
-        GW2API::Event.map_names.should == JSON.parse(@map_names)
+        GW2::Event.map_names.should == JSON.parse(@map_names)
       end
     end
   end

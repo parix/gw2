@@ -1,10 +1,10 @@
-module GW2API
-  module Item 
-    def self.item_details(item_id)
+module GW2
+  module Recipe
+    def self.all
       response = request(
         action: "Get",
         ssl: true,
-        url: "#{BASE_URL}/item_details.json?item_id=#{item_id}"
+        url: "#{BASE_URL}/recipes.json"
       )
 
       return JSON.parse(response.body)

@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe GW2API::Item do
+describe GW2::Item do
   describe "methods" do
-    context "#item_details" do
+    context "#details" do
       before :each do
         @item_details = {
           "item_id" => "12546",
@@ -23,11 +23,11 @@ describe GW2API::Item do
       end
 
       it "exists" do
-        GW2API::Item.respond_to?(:item_details).should == true
+        GW2::Item.respond_to?(:details).should == true
       end
   
       it "returns the correct JSON parsed data" do
-        GW2API::Item.item_details(12546).should == @item_details
+        GW2::Item.details(12546).should == @item_details
       end
     end
   end

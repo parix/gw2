@@ -1,4 +1,4 @@
-module GW2API
+module GW2
   module Event
     def self.world_names
       response = request(

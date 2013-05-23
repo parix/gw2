@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe GW2API::WvW do
+describe GW2::WvW do
   describe "methods" do
     context "#objective_names" do
       before :each do
@@ -14,11 +14,11 @@ describe GW2API::WvW do
       end
 
       it "exists" do
-        GW2API::WvW.respond_to?(:objective_names).should == true
+        GW2::WvW.respond_to?(:objective_names).should == true
       end
 
       it "returns the correct data" do
-        GW2API::WvW.objective_names.should == @objective_names
+        GW2::WvW.objective_names.should == @objective_names
       end
     end
   end
