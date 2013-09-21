@@ -88,6 +88,14 @@ GW2::Recipe.all
 GW2::Recipe.details(1275)
 ```
 
+## Dye API
+
+**Get all dyes**
+
+```ruby
+GW2::Dye.all
+```
+
 ## Copyright
 Copyright (c) 2013 Chris Rosario.
 See [LICENSE][] for details.

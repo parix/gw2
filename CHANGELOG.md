@@ -1,3 +1,7 @@
+1.0.2
+-----
+* Added Dye API
+
 1.0.1
 -----
 * Improved README

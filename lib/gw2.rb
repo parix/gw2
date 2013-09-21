@@ -4,6 +4,7 @@ require "gw2/event"
 require "gw2/wvw"
 require "gw2/item"
 require "gw2/recipe"
+require "gw2/dye"
 
 module GW2
   BASE_URL = "https://api.guildwars2.com/v1" 
