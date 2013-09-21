@@ -88,6 +88,15 @@ GW2::Recipe.all
 GW2::Recipe.details(1275)
 ```
 
+## Guild API
+
+**Get details of a guild**
+
+```ruby
+GW2::Guild.details(guild_id: "16DB5921-CF1B-48D2-A5A0-2F0AADD9765D")
+GW2::Guild.details(guild_name: "Ruinous")
+```
+
 ## Dye API
 
 **Get all dyes**

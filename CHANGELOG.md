@@ -1,6 +1,6 @@
 1.0.2
 -----
-* Added Dye API
+* Added Dye and Guild API
 
 1.0.1
 -----
