@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe GW2::Build do
+describe GW2::Misc do
   describe "methods" do
-    context "#current" do
+    context "#build" do
       before :each do
         @build = { "build_id" => 22120 }
 
@@ -11,11 +11,11 @@ describe GW2::Build do
       end
 
       it "exists" do
-        GW2::Build.respond_to?(:current).should == true
+        GW2::Misc.respond_to?(:build).should == true
       end
   
       it "returns the correct JSON parsed data" do
-        GW2::Build.current.should == @build
+        GW2::Misc.build.should == @build
       end
     end
   end

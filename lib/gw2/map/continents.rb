@@ -1,10 +1,10 @@
 module GW2
-  module Build
-    def self.current
+  module Map
+    def self.continents
       response = request(
         action: "Get",
         ssl: true,
-        url: "#{BASE_URL}/build.json"
+        url: "#{BASE_URL}/continents.json"
       )
 
       return JSON.parse(response.body)
