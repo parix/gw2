@@ -6,6 +6,7 @@ A Ruby interface for accessing the Guild Wars 2 API.
 
     gem install gw2
 
+
 ## Dynamic Event API
 
 **Get all dynamic events**
@@ -42,24 +43,13 @@ GW2::Event.map_names
 GW2::Event.world_names
 ```
 
-## World vs World API
+## Guild API
 
-**Get all current matches**
-
-```ruby
-GW2::WvW.matches
-```
-
-**Get details of a specific match**
+**Get details of a guild**
 
 ```ruby
-GW2::WvW.match_details("1-5")
-```
-
-**Get all objective names**
-
-```ruby
-GW2::WvW.objective_names
+GW2::Guild.details(guild_id: "16DB5921-CF1B-48D2-A5A0-2F0AADD9765D")
+GW2::Guild.details(guild_name: "Ruinous")
 ```
 
 ## Item and Recipe Database API
@@ -86,6 +76,73 @@ GW2::Recipe.all
 
 ```ruby
 GW2::Recipe.details(1275)
+```
+
+## Map Information API
+
+**Get details of all the continents**
+
+```ruby
+GW2::Map.continents
+```
+
+**Get all maps**
+
+```ruby
+GW2::Map.all
+```
+
+**Get details about a specific map**
+
+```ruby
+GW2::Map.where(map_id: 80)
+```
+
+**Get details about a map floor**
+
+```ruby
+GW2::Map.map_floor(1, 1)
+```
+
+## World vs World API
+
+**Get all current matches**
+
+```ruby
+GW2::WvW.matches
+```
+
+**Get details of a specific match**
+
+```ruby
+GW2::WvW.match_details("1-5")
+```
+
+**Get all objective names**
+
+```ruby
+GW2::WvW.objective_names
+```
+
+
+## Miscellaneous API
+
+**Get the current build id**
+
+```ruby
+GW2::Misc.build
+```
+
+**Get a list of all dyes**
+
+```ruby
+GW2::Misc.colors
+```
+
+**Get commonly requested assets**
+
+```ruby
+GW2::Misc.files
 ```
 
 ## Copyright

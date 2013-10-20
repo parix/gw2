@@ -1,3 +1,7 @@
+1.0.2
+-----
+* Added Guilds, Map, and Miscellaneous APIs
+
 1.0.1
 -----
 * Improved README
