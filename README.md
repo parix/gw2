@@ -147,7 +147,7 @@ GW2::Misc.files
 ```
 
 ## Copyright
-Copyright (c) 2013 Chris Rosario.
+Copyright (c) 2013-2014 Chris Rosario.
 See [LICENSE][] for details.
 
 [license]: LICENSE.md
