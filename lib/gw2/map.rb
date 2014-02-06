@@ -4,6 +4,7 @@ require "gw2/map/map_floor"
 
 module GW2
   module Map
-    extend GW2
+    extend HTTPS
+    extend JSON
   end
 end

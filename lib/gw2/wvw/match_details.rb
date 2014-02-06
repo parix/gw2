@@ -1,13 +1,7 @@
 module GW2
   module WvW
     def self.match_details(match_id)
-      response = request(
-        action: "Get",
-        ssl: true,
-        url: "#{BASE_URL}/wvw/match_details.json?match_id=#{match_id}"
-      )
-
-      return JSON.parse(response.body)
+      parse(request("/wvw/match_details.json", query: { match_id: match_id }).body)
     end
   end
 end

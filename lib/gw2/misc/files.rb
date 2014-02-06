@@ -1,13 +1,7 @@
 module GW2
   module Misc
     def self.files
-      response = request(
-        action: "Get",
-        ssl: true,
-        url: "#{BASE_URL}/files.json"
-      )
-
-      return JSON.parse(response.body)
+      parse(request("/files.json").body)
     end
   end
 end

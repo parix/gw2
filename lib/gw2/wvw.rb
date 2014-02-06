@@ -4,6 +4,7 @@ require "gw2/wvw/objective_names"
 
 module GW2
   module WvW
-    extend GW2
+    extend HTTPS
+    extend JSON
   end
 end

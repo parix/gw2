@@ -1,4 +1,8 @@
-1.0.2
+1.2.0
+-----
+* Large codebase refactor
+
+1.1.0
 -----
 * Added Guilds, Map, and Miscellaneous APIs
 

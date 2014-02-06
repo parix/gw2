@@ -5,6 +5,7 @@ require "gw2/event/events"
 
 module GW2
   module Event
-    extend GW2
+    extend HTTPS
+    extend JSON
   end
 end

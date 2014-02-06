@@ -4,6 +4,7 @@ require "gw2/misc/files"
 
 module GW2
   module Misc
-    extend GW2
+    extend HTTPS
+    extend JSON
   end
 end
