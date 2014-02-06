@@ -1,4 +1,5 @@
 # The Guild Wars 2 API Gem
+[![Code Climate](https://codeclimate.com/github/parix/gw2.png)](https://codeclimate.com/github/parix/gw2)
 
 A Ruby interface for accessing the Guild Wars 2 API.
 
