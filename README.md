@@ -1,5 +1,7 @@
 # The Guild Wars 2 API Gem
 [![Code Climate](https://codeclimate.com/github/parix/gw2.png)](https://codeclimate.com/github/parix/gw2)
+[![Build Status](https://travis-ci.org/parix/gw2.png?branch=master)](https://travis-ci.org/parix/gw2)
+[![Coverage Status](https://coveralls.io/repos/parix/gw2/badge.png?branch=master)](https://coveralls.io/r/parix/gw2?branch=master)
 
 A Ruby interface for accessing the Guild Wars 2 API.
 
