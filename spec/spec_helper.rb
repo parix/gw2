@@ -1,5 +1,6 @@
 require "rspec"
 require "webmock/rspec"
+require "coveralls"
 require "gw2"
 
 RSpec.configure do |config|
@@ -16,3 +17,5 @@ RSpec.configure do |config|
   # instead of true.
   # config.use_transactional_fixtures = false
 end
+
+Coveralls.wear!
