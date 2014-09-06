@@ -31,7 +31,7 @@ describe GW2::Map do
       it "exists" do
         GW2::Map.respond_to?(:continents).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Map.continents.should == { "continents" => @continents }
       end

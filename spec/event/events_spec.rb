@@ -19,7 +19,7 @@ describe GW2::Event do
       it "exists" do
         GW2::Event.respond_to?(:all).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Event.all.should == { "events" => @events }
       end
@@ -46,7 +46,7 @@ describe GW2::Event do
       it "exists" do
         GW2::Event.respond_to?(:where).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Event.where(world_id: 1014).should == { "events" => @events.select{ |n| n[:world_id] == 1014 } }
       end

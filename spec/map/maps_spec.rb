@@ -33,7 +33,7 @@ describe GW2::Map do
       it "exists" do
         GW2::Map.respond_to?(:all).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Map.all.should == { "maps" => @maps }
       end
@@ -70,7 +70,7 @@ describe GW2::Map do
       it "exists" do
         GW2::Map.respond_to?(:where).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Map.where(map_id: 80).should == { "maps" => @maps }
       end

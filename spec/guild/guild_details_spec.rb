@@ -27,7 +27,7 @@ describe GW2::Guild do
       it "exists" do
         GW2::Guild.respond_to?(:details).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Guild.details(guild_id: "16DB5921-CF1B-48D2-A5A0-2F0AADD9765D").should == @guild_details
         GW2::Guild.details(guild_name: "Ruinous").should == @guild_details

@@ -67,7 +67,7 @@ describe GW2::Map do
       it "exists" do
         GW2::Map.respond_to?(:map_floor).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Map.map_floor(1, 1).should == @floors
       end

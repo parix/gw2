@@ -13,7 +13,7 @@ describe GW2::Item do
       it "exists" do
         GW2::Item.respond_to?(:all).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Item.all.should == { "items" => @items }
       end

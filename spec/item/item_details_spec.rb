@@ -25,7 +25,7 @@ describe GW2::Item do
       it "exists" do
         GW2::Item.respond_to?(:details).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Item.details(12546).should == @item_details
       end

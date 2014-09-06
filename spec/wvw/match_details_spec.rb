@@ -99,7 +99,7 @@ describe GW2::WvW do
       it "exists" do
         GW2::WvW.respond_to?(:match_details).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::WvW.match_details("2-3").should == @match_details
       end

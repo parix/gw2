@@ -13,7 +13,7 @@ describe GW2::Recipe do
       it "exists" do
         GW2::Recipe.respond_to?(:all).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Recipe.all.should == { "recipes" => @recipes }
       end

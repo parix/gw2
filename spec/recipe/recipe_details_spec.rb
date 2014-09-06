@@ -25,7 +25,7 @@ describe GW2::Recipe do
       it "exists" do
         GW2::Recipe.respond_to?(:details).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Recipe.details(1275).should == @recipe_details
       end

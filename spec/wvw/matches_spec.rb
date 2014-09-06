@@ -16,7 +16,7 @@ describe GW2::WvW do
       it "exists" do
         GW2::WvW.respond_to?(:matches).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::WvW.matches.should == { "wvw_matches" => @matches }
       end

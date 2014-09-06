@@ -13,7 +13,7 @@ describe GW2::Misc do
       it "exists" do
         GW2::Misc.respond_to?(:build).should == true
       end
-  
+
       it "returns the correct JSON parsed data" do
         GW2::Misc.build.should == @build
       end
