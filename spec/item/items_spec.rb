@@ -2,20 +2,17 @@ require "spec_helper"
 
 describe GW2::Item do
   describe ".all" do
-    before :each do
+    it "returns the correct JSON parsed data" do
       @items = [12546, 12547, 12548, 12549, 12550]
-
       stub_request(:get, "https://api.guildwars2.com/v1/items.json").
         to_return(:status => 200, :body => { "items" => @items }.to_json)
-    end
 
-    it "returns the correct JSON parsed data" do
       GW2::Item.all.should == { "items" => @items }
     end
   end
 
   describe ".details" do
-    before :each do
+    it "returns the correct JSON parsed data" do
       @item_details = {
         "item_id" => "12546",
         "name" => "Lemongrass",
@@ -32,9 +29,7 @@ describe GW2::Item do
 
       stub_request(:get, "https://api.guildwars2.com/v1/item_details.json?item_id=12546").
         to_return(:status => 200, :body => @item_details.to_json)
-    end
 
-    it "returns the correct JSON parsed data" do
       GW2::Item.details(12546).should == @item_details
     end
   end
