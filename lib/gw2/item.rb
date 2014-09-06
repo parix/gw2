@@ -1,8 +1,5 @@
 module GW2
-  module Item
-    extend HTTPS
-    extend JSON
-
+  class Item < ApiInterface
     def self.all
       parse(request("/items.json").body)
     end
