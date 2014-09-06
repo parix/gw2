@@ -1,7 +1,5 @@
 module GW2
   class Map < ApiRequest
-    PARAMS_FILTER = [:map_id]
-
     def self.all
       self.where
     end
