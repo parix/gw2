@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe GW2::Item do
-  describe "#all" do
+  describe ".all" do
     before :each do
       @items = [12546, 12547, 12548, 12549, 12550]
 
@@ -18,7 +18,7 @@ describe GW2::Item do
     end
   end
 
-  describe "#details" do
+  describe ".details" do
     before :each do
       @item_details = {
         "item_id" => "12546",
