@@ -15,6 +15,7 @@ module GW2
     end
 
     def self.endpoint_path(endpoint)
+      endpoint = Array(endpoint).join('/')
       "/#{endpoint}.json"
     end
   end
