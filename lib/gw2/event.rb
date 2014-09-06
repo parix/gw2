@@ -1,7 +1,7 @@
 module GW2
   class Event < ApiRequest
     def self.all
-      self.where
+      where
     end
 
     def self.where(query_hash = {})
