@@ -1,5 +1,5 @@
 module GW2
-  class Item < ApiInterface
+  class Item < ApiRequest
     def self.all
       get :items
     end

@@ -1,4 +1,4 @@
-require "gw2/api_interface"
+require "gw2/api_request"
 require "gw2/event"
 require "gw2/wvw"
 require "gw2/item"
