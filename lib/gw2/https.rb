@@ -19,7 +19,6 @@ module GW2
       http.use_ssl = attr[:ssl]
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE if attr[:ssl] # need to get a cert -_____-
 
-      net_http = Net::HTTP
       request = Net::HTTP.const_get(attr[:action]).new(uri.request_uri)
       attr[:headers].each { |key, value| request[key.to_s] = value } if attr[:headers]
 
