@@ -1,10 +1,21 @@
-require "gw2/map/continents"
-require "gw2/map/maps"
-require "gw2/map/map_floor"
-
 module GW2
-  module Map
-    extend HTTPS
-    extend JSON
+  class Map < ApiRequest
+    PARAMS_FILTER = [:map_id]
+
+    def self.all
+      self.where
+    end
+
+    def self.where(query_hash = {})
+      parse(request("/maps.json", query: query_hash).body)
+    end
+
+    def self.map_floor(continent_id, floor)
+      parse(request("/map_floor.json", query: { continent_id: continent_id, floor: floor }).body)
+    end
+
+    def self.continents
+      parse(request("/continents.json").body)
+    end
   end
 end
