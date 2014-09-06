@@ -9,10 +9,6 @@ describe GW2::Item do
         to_return(:status => 200, :body => { "items" => @items }.to_json)
     end
 
-    it "exists" do
-      GW2::Item.respond_to?(:all).should == true
-    end
-
     it "returns the correct JSON parsed data" do
       GW2::Item.all.should == { "items" => @items }
     end
@@ -36,10 +32,6 @@ describe GW2::Item do
 
       stub_request(:get, "https://api.guildwars2.com/v1/item_details.json?item_id=12546").
         to_return(:status => 200, :body => @item_details.to_json)
-    end
-
-    it "exists" do
-      GW2::Item.respond_to?(:details).should == true
     end
 
     it "returns the correct JSON parsed data" do
