@@ -1,15 +1,15 @@
 module GW2
   class Misc < ApiRequest
     def self.build
-      parse(request("/build.json").body)
+      get :build
     end
 
     def self.colors
-      parse(request("/colors.json").body)
+      get :colors
     end
 
     def self.files
-      parse(request("/files.json").body)
+      get :files
     end
   end
 end

@@ -1,15 +1,15 @@
 module GW2
   class WvW < ApiRequest
     def self.matches
-      parse(request("/wvw/matches.json").body)
+      get :matches
     end
 
     def self.match_details(match_id)
-      parse(request("/wvw/match_details.json", query: { match_id: match_id }).body)
+      get :match_details, match_id: match_id
     end
 
     def self.objective_names
-      parse(request("/wvw/objective_names.json").body)
+      get :objective_names
     end
   end
 end

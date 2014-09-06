@@ -5,19 +5,19 @@ module GW2
     end
 
     def self.where(query_hash = {})
-      parse(request("/events.json", query: query_hash).body)
+      get :events, query_hash
     end
 
     def self.event_names
-      parse(request("/event_names.json").body)
+      get :event_names
     end
 
     def self.map_names
-      parse(request("/map_names.json").body)
+      get :map_names
     end
 
     def self.world_names
-      parse(request("/world_names.json").body)
+      get :world_names
     end
   end
 end
