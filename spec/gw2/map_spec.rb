@@ -1,71 +1,51 @@
 require "spec_helper"
 
 describe GW2::Map do
+  let(:maps) do
+    {
+      "80" => {
+        "map_name" => "A Society Function",
+        "min_level" => 8,
+        "max_level" => 8,
+        "default_floor" => 1,
+        "floors" => [1, 2],
+        "region_id" => 8,
+        "region_name" => "Steamspur Mountains",
+        "continent_id" => 1,
+        "continent_name" => "Tyria",
+        "map_rect" => [
+          [-21504, -21504],
+          [24576, 21504]
+        ],
+        "continent_rect" => [
+          [10240, 9856],
+          [12160, 11648]
+        ]
+      }
+    }
+  end
+
   describe ".all" do
     it "returns the correct JSON parsed data" do
-      @maps = {
-        "80" => {
-          "map_name" => "A Society Function",
-          "min_level" => 8,
-          "max_level" => 8,
-          "default_floor" => 1,
-          "floors" => [1, 2],
-          "region_id" => 8,
-          "region_name" => "Steamspur Mountains",
-          "continent_id" => 1,
-          "continent_name" => "Tyria",
-          "map_rect" => [
-            [-21504, -21504],
-            [24576, 21504]
-          ],
-          "continent_rect" => [
-            [10240, 9856],
-            [12160, 11648]
-          ]
-        }
-      }
+      response_body = { "maps" => maps }.to_json
+      stub_endpoint("/maps.json").to_return(body: response_body)
 
-      stub_request(:get, "https://api.guildwars2.com/v1/maps.json").
-        to_return(:status => 200, :body => { "maps" => @maps }.to_json)
-
-      GW2::Map.all.should == { "maps" => @maps }
+      GW2::Map.all.should == { "maps" => maps }
     end
   end
 
-  describe ".maps" do
+  describe ".where" do
     it "returns the correct JSON parsed data" do
-      @maps = {
-        "80" => {
-          "map_name" => "A Society Function",
-          "min_level" => 8,
-          "max_level" => 8,
-          "default_floor" => 1,
-          "floors" => [1, 2],
-          "region_id" => 8,
-          "region_name" => "Steamspur Mountains",
-          "continent_id" => 1,
-          "continent_name" => "Tyria",
-          "map_rect" => [
-            [-21504, -21504],
-            [24576, 21504]
-          ],
-          "continent_rect" => [
-            [10240, 9856],
-            [12160, 11648]
-          ]
-        }
-      }
+      response_body = { "maps" => maps }.to_json
+      stub_endpoint("/maps.json?map_id=80").to_return(body: response_body)
 
-      stub_request(:get, "https://api.guildwars2.com/v1/maps.json?map_id=80").
-        to_return(:status => 200, :body => { "maps" => @maps }.to_json)
-
-      GW2::Map.where(map_id: 80).should == { "maps" => @maps }
+      GW2::Map.where(map_id: 80).should == { "maps" => maps }
     end
   end
 
   describe ".map_floor" do
     it "returns the correct JSON parsed data" do
-      @floors = {
+      floors = {
         "texture_dims" => [ 32768, 32768 ],
         "regions" => {
           "1" => {
@@ -121,16 +101,16 @@ describe GW2::Map do
         }
       }
 
-      stub_request(:get, "https://api.guildwars2.com/v1/map_floor.json?continent_id=1&floor=1").
-        to_return(:status => 200, :body => @floors.to_json)
+      stub_endpoint("/map_floor.json?continent_id=1&floor=1").
+        to_return(body: floors.to_json)
 
-      GW2::Map.map_floor(1, 1).should == @floors
+      GW2::Map.map_floor(1, 1).should == floors
     end
   end
 
   describe ".continents" do
     it "returns the correct JSON parsed data" do
-      @continents = {
+      continents = {
         "1" => {
           "name" => "Tyria",
           "continent_dims" => [ 32768, 32768 ],
@@ -149,11 +129,10 @@ describe GW2::Map do
               26, -27, -28, -29, -30, -31, -32, -33, 27 ]
         }
       }
+      response_body = { "continents" => continents }.to_json
+      stub_endpoint("/continents.json").to_return(body: response_body)
 
-      stub_request(:get, "https://api.guildwars2.com/v1/continents.json").
-        to_return(:status => 200, :body => { "continents" => @continents }.to_json)
-
-      GW2::Map.continents.should == { "continents" => @continents }
+      GW2::Map.continents.should == { "continents" => continents }
     end
   end
 end

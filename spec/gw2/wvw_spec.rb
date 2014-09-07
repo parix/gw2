@@ -3,21 +3,21 @@ require "spec_helper"
 describe GW2::WvW do
   describe ".matches" do
     it "returns the correct JSON parsed data" do
-      @matches = [
+      matches = [
         { "wvw_match_id" => "2-3", "red_world_id" => 2103, "blue_world_id" => 2301, "green_world_id" => 2012 },
         { "wvw_match_id" => "2-2", "red_world_id" => 2201, "blue_world_id" => 2010, "green_world_id" => 2101 }
       ]
 
-      stub_request(:get, "https://api.guildwars2.com/v1/wvw/matches.json").
-        to_return(:status => 200, :body => { "wvw_matches" => @matches }.to_json)
+      response_body = { "wvw_matches" => matches }.to_json
+      stub_endpoint("/wvw/matches.json").to_return(body: response_body)
 
-      GW2::WvW.matches.should == { "wvw_matches" => @matches }
+      GW2::WvW.matches.should == { "wvw_matches" => matches }
     end
   end
 
   describe ".match_details" do
     it "returns the correct JSON parsed data" do
-      @match_details = {
+      match_details = {
         "match_id" => "2-3",
         "scores" => [155221,151605,162092],
         "maps" => [
@@ -105,24 +105,24 @@ describe GW2::WvW do
         ]
       }
 
-      stub_request(:get, "https://api.guildwars2.com/v1/wvw/match_details.json?match_id=2-3").
-        to_return(:status => 200, :body => @match_details.to_json)
+      stub_endpoint("/wvw/match_details.json?match_id=2-3").
+        to_return(body: match_details.to_json)
 
-      GW2::WvW.match_details("2-3").should == @match_details
+      GW2::WvW.match_details("2-3").should == match_details
     end
   end
 
   describe ".objective_names" do
-    it "returns the correct data" do
-      @objective_names = [
+    it "returns the correct JSON parsed data" do
+      objective_names = [
         {"id" => "30","name" => "Tower"},
         {"id" => "57","name" => "Tower"}
       ]
 
-      stub_request(:get, "https://api.guildwars2.com/v1/wvw/objective_names.json").
-        to_return(:status => 200, :body => @objective_names.to_json)
+      stub_endpoint("/wvw/objective_names.json").
+        to_return(body: objective_names.to_json)
 
-      GW2::WvW.objective_names.should == @objective_names
+      GW2::WvW.objective_names.should == objective_names
     end
   end
 end
