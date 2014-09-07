@@ -15,7 +15,7 @@ describe GW2::Event do
 
   describe ".all" do
     it "returns the correct JSON parsed data" do
-      stub_endpoint "/events.json", body: events.to_json
+      stub_endpoint("/events.json").to_return(body: events.to_json)
 
       GW2::Event.all.should == { "events" => events.to_a }
     end
@@ -24,14 +24,14 @@ describe GW2::Event do
   describe ".where" do
     it "returns a list of events for a world ID" do
       results = events.where(world_id: 1014)
-      stub_endpoint "/events.json?world_id=1014", body: results.to_json
+      stub_endpoint("/events.json?world_id=1014").to_return(body: results.to_json)
 
       GW2::Event.where(world_id: 1014).should == { "events" => results.events }
     end
 
     it "returns a list of events for a map ID" do
       results = events.where(map_id: 875)
-      stub_endpoint "/events.json?map_id=875", body: results.to_json
+      stub_endpoint("/events.json?map_id=875").to_return(body: results.to_json)
 
       GW2::Event.where(map_id: 875).should == { "events" => results.events }
     end
@@ -39,7 +39,7 @@ describe GW2::Event do
     it "returns a list of events for an event ID" do
       event_id = "659149D4-43EC-4DCB-A6BB-0B2D402B537E"
       results = events.where(event_id: event_id)
-      stub_endpoint "/events.json?event_id=#{event_id}", body: results.to_json
+      stub_endpoint("/events.json?event_id=#{event_id}").to_return(body: results.to_json)
 
       GW2::Event.where(event_id: event_id).should == { "events" => results.events }
     end
@@ -48,7 +48,7 @@ describe GW2::Event do
   describe ".event_names" do
     it "returns the correct JSON parsed data" do
       event_names = %Q([{"id":"7C2B9506-5C0C-49CA-9C73-3EA740772944","name":"Skill Challenge: Fight the Quaggan Pirate"}])
-      stub_endpoint "/event_names.json", body: event_names
+      stub_endpoint("/event_names.json").to_return(body: event_names)
 
       GW2::Event.event_names.should == JSON.parse(event_names)
     end
@@ -57,7 +57,7 @@ describe GW2::Event do
   describe ".map_names" do
     it "returns the correct JSON parsed data" do
       map_names = %Q([{"id":"15","name":"Queensdale"}])
-      stub_endpoint "/map_names.json", body: map_names
+      stub_endpoint("/map_names.json").to_return(body: map_names)
 
       GW2::Event.map_names.should == JSON.parse(map_names)
     end
@@ -66,7 +66,7 @@ describe GW2::Event do
   describe ".world_names" do
     it "returns the correct JSON parsed data" do
       world_names = %Q([{"id":"1004","name":"Henge of Denravi"}])
-      stub_endpoint "/world_names.json", body: world_names
+      stub_endpoint("/world_names.json").to_return(body: world_names)
 
       GW2::Event.world_names.should == JSON.parse(world_names)
     end
