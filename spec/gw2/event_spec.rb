@@ -13,8 +13,9 @@ describe GW2::Event do
 
   describe ".all" do
     it "returns the correct JSON parsed data" do
-      stub_request(:get, "https://api.guildwars2.com/v1/events.json").
-        to_return(:status => 200, :body => { "events" => events }.to_json)
+      request_uri = endpoint_uri("/events.json")
+      response_body = { "events" => events }.to_json
+      stub_request(:get, request_uri).to_return(:status => 200, :body => response_body)
 
       GW2::Event.all.should == { "events" => events }
     end
