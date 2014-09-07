@@ -15,7 +15,7 @@ describe GW2::Event do
     it "returns the correct JSON parsed data" do
       request_uri = endpoint_uri("/events.json")
       response_body = { "events" => events }.to_json
-      stub_request(:get, request_uri).to_return(:status => 200, :body => response_body)
+      stub_request(:get, request_uri).to_return(body: response_body)
 
       GW2::Event.all.should == { "events" => events }
     end
