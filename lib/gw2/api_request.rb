@@ -6,8 +6,6 @@ module GW2
     extend HTTPS
     extend JSON
 
-    private
-
     def self.get(endpoint, query = {})
       path = endpoint_path(endpoint)
       response = request(path, query: query)
