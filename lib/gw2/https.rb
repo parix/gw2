@@ -19,7 +19,7 @@ module GW2
 
     private
 
-    def request(end_point = "", attr = {})
+    def request(end_point, attr = {})
       attr = DEFAULT_REQUEST.merge(attr)
       uri = endpoint_uri(end_point, query: attr[:query])
 
