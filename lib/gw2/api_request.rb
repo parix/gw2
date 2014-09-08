@@ -11,7 +11,7 @@ module GW2
     def self.get(endpoint, query = {})
       path = endpoint_path(endpoint)
       response = request(path, query: query)
-      parse(response.body)
+      parse(response)
     end
 
     def self.endpoint_path(endpoint)

@@ -1,4 +1,4 @@
-require "net/https"
+require "open-uri"
 
 module GW2
   module HTTPS
@@ -23,16 +23,7 @@ module GW2
       attr = DEFAULT_REQUEST.merge(attr)
       uri = endpoint_uri(end_point, query: attr[:query])
 
-      http = Net::HTTP.new(uri.host, uri.port)
-      http.use_ssl = attr[:ssl]
-      http.verify_mode = OpenSSL::SSL::VERIFY_NONE if attr[:ssl] # need to get a cert -_____-
-
-      request = Net::HTTP.const_get(attr[:action]).new(uri.request_uri)
-      attr[:headers].each { |key, value| request[key.to_s] = value } if attr[:headers]
-
-      request.set_form_data(attr[:form_data]) if attr[:form_data]
-
-      http.request(request)
+      uri.read
     end
   end
 end
