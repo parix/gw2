@@ -3,8 +3,10 @@ shared_examples "an API response parser" do
 
   let(:sample_data) do
     [
-      { "string" => "foo", "integer" => 42, "array" => ["foo", 42], "hash" => { "foo" => 42 } },
-      { "string" => "bar", "integer" => 97, "array" => ["bar", 97], "hash" => { "bar" => 97 } },
+      { "String" => "By Ogden's Hammer, What Savings!" },
+      { "Integer" => 42 },
+      { "Array" => ["Chauncy", 9001] },
+      { "Hash" => { "Chauncy" => 9001 } },
     ]
   end
 
