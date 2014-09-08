@@ -4,7 +4,7 @@ module GW2
   module HTTPS
     DEFAULT_REQUEST = { action: "Get", ssl: true, query: {} }
 
-    def endpoint_uri(endpoint, query: {})
+    def endpoint_uri(endpoint, query = {})
       URI.parse(BASE_URL + endpoint + query_string(query))
     end
     module_function :endpoint_uri
@@ -21,7 +21,7 @@ module GW2
 
     def request(end_point, attr = {})
       attr = DEFAULT_REQUEST.merge(attr)
-      uri = endpoint_uri(end_point, query: attr[:query])
+      uri = endpoint_uri(end_point, attr[:query])
 
       uri.read
     end
