@@ -5,8 +5,8 @@ shared_examples "an API response parser" do
     [
       { "String" => "By Ogden's Hammer, What Savings!" },
       { "Integer" => 42 },
-      { "Array" => ["Chauncy", 9001] },
-      { "Hash" => { "Chauncy" => 9001 } },
+      { "Array" => ["Chauncy von Snuffles III", 9001] },
+      { "Hash" => { "Chauncy von Snuffles III" => 9001 } },
     ]
   end
 
