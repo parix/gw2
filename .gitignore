@@ -1,6 +1,7 @@
+*.gem
+.bundle/
+.ruby-gemset
 .ruby-version
 Gemfile.lock
-.bundle
-vendor
-*.gem
-.DS_Store
+coverage/
+vendor/

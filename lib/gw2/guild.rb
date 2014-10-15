@@ -1,8 +1,7 @@
-require "gw2/guild/guild_details"
-
 module GW2
-  module Guild
-    extend HTTPS
-    extend JSON
+  class Guild < ApiRequest
+    def self.details(query_hash = {})
+      get :guild_details, query_hash
+    end
   end
 end

@@ -1,11 +1,23 @@
-require "gw2/event/event_names"
-require "gw2/event/map_names"
-require "gw2/event/world_names"
-require "gw2/event/events"
-
 module GW2
-  module Event
-    extend HTTPS
-    extend JSON
+  class Event < ApiRequest
+    def self.all
+      where
+    end
+
+    def self.where(query_hash = {})
+      get :events, query_hash
+    end
+
+    def self.event_names
+      get :event_names
+    end
+
+    def self.map_names
+      get :map_names
+    end
+
+    def self.world_names
+      get :world_names
+    end
   end
 end

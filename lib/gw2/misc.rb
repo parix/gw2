@@ -1,10 +1,15 @@
-require "gw2/misc/build"
-require "gw2/misc/colors"
-require "gw2/misc/files"
-
 module GW2
-  module Misc
-    extend HTTPS
-    extend JSON
+  class Misc < ApiRequest
+    def self.build
+      get :build
+    end
+
+    def self.colors
+      get :colors
+    end
+
+    def self.files
+      get :files
+    end
   end
 end

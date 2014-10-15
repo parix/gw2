@@ -1,9 +1,11 @@
-require "gw2/item/items"
-require "gw2/item/item_details"
-
 module GW2
-  module Item
-    extend HTTPS
-    extend JSON
+  class Item < ApiRequest
+    def self.all
+      get :items
+    end
+
+    def self.details(item_id)
+      get :item_details, item_id: item_id
+    end
   end
 end

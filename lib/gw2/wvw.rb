@@ -1,10 +1,15 @@
-require "gw2/wvw/matches"
-require "gw2/wvw/match_details"
-require "gw2/wvw/objective_names"
-
 module GW2
-  module WvW
-    extend HTTPS
-    extend JSON
+  class WvW < ApiRequest
+    def self.matches
+      get [:wvw, :matches]
+    end
+
+    def self.match_details(match_id)
+      get [:wvw, :match_details], match_id: match_id
+    end
+
+    def self.objective_names
+      get [:wvw, :objective_names]
+    end
   end
 end
