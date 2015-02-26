@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.guildwars2.com/v1/maps.json?map_id=80
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Thu, 26 Feb 2015 22:13:39 GMT
+      Content-Length:
+      - '214'
+    body:
+      encoding: UTF-8
+      string: '{"maps":{"80":{"map_name":"A Society Function","min_level":10,"max_level":10,"default_floor":1,"floors":[1,2],"region_id":8,"region_name":"Steamspur
+        Mountains","continent_id":1,"continent_name":"Tyria","map_rect":[[-21504,-21504],[24576,21504]],"continent_rect":[[10240,9856],[12160,11648]]}}}'
+    http_version: 
+  recorded_at: Thu, 26 Feb 2015 22:13:39 GMT
+recorded_with: VCR 2.9.3
