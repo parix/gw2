@@ -1,11 +1,11 @@
 module GW2
   module Event
     def self.all
-      self.where
+      raise GW2::Disabled, "This endpoint is disabled due to the implementation of Megaserver technology."
     end
 
     def self.where(query_hash = {})
-      parse(request("/events.json", query: query_hash).body)
+      raise GW2::Disabled, "This endpoint is disabled due to the implementation of Megaserver technology."
     end
   end
 end

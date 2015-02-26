@@ -1,5 +1,6 @@
 require "rspec"
 require "webmock/rspec"
+require "vcr"
 require "coveralls"
 require "gw2"
 
@@ -16,6 +17,12 @@ RSpec.configure do |config|
   # examples within a transaction, remove the following line or assign false
   # instead of true.
   # config.use_transactional_fixtures = false
+end
+
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures"
+  config.hook_into :webmock # or :fakeweb
+  config.configure_rspec_metadata!
 end
 
 Coveralls.wear!

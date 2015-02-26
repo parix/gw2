@@ -7,7 +7,7 @@ module GW2
     end
 
     def self.where(query_hash = {})
-      parse(request("/maps.json", query: query_hash).body)
+      parse(request("/maps.json", query: query_hash).body)["maps"]
     end
   end
 end
