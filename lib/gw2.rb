@@ -1,5 +1,6 @@
 require "gw2/json"
 require "gw2/https"
+require "gw2/resource"
 require "gw2/event"
 require "gw2/wvw"
 require "gw2/item"
