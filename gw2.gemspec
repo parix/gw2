@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "gw2"
-  s.version = "1.2.0"
-  s.date = "2014-02-05"
+  s.version = "1.3.0"
+  s.date = "2015-02-26"
   s.summary = "Guild Wars 2 API"
   s.description = "A ruby gem for accessing the Guild Wars 2 API"
   s.authors = ["Chris Rosario"]
