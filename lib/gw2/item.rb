@@ -1,14 +1,13 @@
 module GW2
   module Item
-    extend HTTPS
-    extend JSON
+    extend Resource
 
     def self.all
-      parse(request("/items.json").body)["items"]
+      get("/items.json")["items"]
     end
 
     def self.details(item_id)
-      parse(request("/item_details.json", query: { item_id: item_id }).body)
+      get("/item_details.json", { item_id: item_id })
     end
   end
 end

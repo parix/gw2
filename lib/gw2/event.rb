@@ -1,7 +1,6 @@
 module GW2
   module Event
-    extend HTTPS
-    extend JSON
+    extend Resource
 
     def self.all
       raise GW2::Disabled, "This endpoint is disabled due to the implementation of Megaserver technology."
@@ -12,15 +11,15 @@ module GW2
     end
 
     def self.world_names
-      parse(request("/world_names.json").body)
+      get("/world_names.json")
     end
 
     def self.event_names
-      parse(request("/event_names.json").body)
+      get("/event_names.json")
     end
 
     def self.map_names
-      parse(request("/map_names.json").body)
+      get("/map_names.json")
     end
   end
 end

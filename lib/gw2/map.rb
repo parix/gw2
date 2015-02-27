@@ -1,7 +1,6 @@
 module GW2
   module Map
-    extend HTTPS
-    extend JSON
+    extend Resource
 
     PARAMS_FILTER = [:map_id]
 
@@ -9,16 +8,16 @@ module GW2
       self.where
     end
 
-    def self.where(query_hash = {})
-      parse(request("/maps.json", query: query_hash).body)["maps"]
+    def self.where(query = {})
+      get("/maps.json", query)["maps"]
     end
 
     def self.map_floor(continent_id, floor)
-      parse(request("/map_floor.json", query: { continent_id: continent_id, floor: floor }).body)
+      get("/map_floor.json", { continent_id: continent_id, floor: floor })
     end
 
     def self.continents
-      parse(request("/continents.json").body)["continents"]
+      get("/continents.json")["continents"]
     end
   end
 end

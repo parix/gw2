@@ -1,18 +1,17 @@
 module GW2
   module WvW
-    extend HTTPS
-    extend JSON
+    extend Resource
 
     def self.matches
-      parse(request("/wvw/matches.json").body)["wvw_matches"]
+      get("/wvw/matches.json")["wvw_matches"]
     end
 
     def self.match_details(match_id)
-      parse(request("/wvw/match_details.json", query: { match_id: match_id }).body)["maps"]
+      get("/wvw/match_details.json", match_id: match_id)["maps"]
     end
 
     def self.objective_names
-      parse(request("/wvw/objective_names.json").body)
+      get("/wvw/objective_names.json")
     end
   end
 end
