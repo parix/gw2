@@ -3,15 +3,15 @@ module GW2
     extend Resource
 
     def self.build
-      get("/build.json")["build_id"]
-    end
-
-    def self.colors
-      get("/colors.json")["colors"]
+      get("/build.json")
     end
 
     def self.files
-      get("/files.json")
+      get("/files.json", {ids: "all"})
+    end
+
+    def self.worlds
+      get("/worlds.json", {ids: "all"})
     end
   end
 end

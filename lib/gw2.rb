@@ -7,9 +7,16 @@ require "gw2/item"
 require "gw2/recipe"
 require "gw2/guild"
 require "gw2/misc"
+require "gw2/colors"
+require "gw2/quaggans"
+require "gw2/skins"
 require "gw2/map"
+require "gw2/commerce/listings"
+require "gw2/commerce/exchange"
+require "gw2/commerce/prices"
 require "gw2/disabled"
 
 module GW2
-  BASE_URL = "https://api.guildwars2.com/v1"
+  BASE_URL_V1 = "https://api.guildwars2.com/v1"
+  BASE_URL_V2 = "https://api.guildwars2.com/v2"
 end

@@ -5,3 +5,4 @@ vendor
 *.gem
 .DS_Store
 coverage
+.idea

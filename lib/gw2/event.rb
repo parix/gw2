@@ -19,7 +19,7 @@ module GW2
     end
 
     def self.map_names
-      get("/map_names.json")
+      GW2::Misc.worlds
     end
   end
 end
