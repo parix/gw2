@@ -3,7 +3,7 @@ module GW2
     extend Resource
 
     def self.build
-      get("/build.json")
+      get("/build.json")["id"]
     end
 
     def self.files

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.guildwars2.com/v1/guild_details.json?guild_id=16DB5921-CF1B-48D2-A5A0-2F0AADD9765D
+    uri: https://api.guildwars2.com/v2/quaggans.json
     body:
       encoding: US-ASCII
       string: ''
@@ -20,21 +20,25 @@ http_interactions:
     headers:
       Content-Type:
       - application/json; charset=utf-8
+      Content-Language:
+      - en
       Vary:
       - Accept-Encoding
       Server:
       - Microsoft-IIS/7.5
+      X-Result-Count:
+      - '35'
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Mon, 30 Mar 2015 11:28:59 GMT
+      - Mon, 30 Mar 2015 11:29:02 GMT
       Content-Length:
-      - '175'
+      - '197'
     body:
       encoding: UTF-8
-      string: '{"guild_id":"16DB5921-CF1B-48D2-A5A0-2F0AADD9765D","guild_name":"Ruinous","tag":"RUIN","emblem":{"background_id":1,"foreground_id":70,"flags":[],"background_color_id":473,"foreground_primary_color_id":146,"foreground_secondary_color_id":146}}'
+      string: '["404","aloha","attack","bear","bowl","box","breakfast","bubble","cake","cheer","coffee","construction","cow","cry","elf","ghost","girl","hat","helmut","hoodie-down","hoodie-up","killerwhale","knight","lollipop","lost","moving","party","present","quaggan","rain","scifi","seahawks","sleep","summer","vacation"]'
     http_version: 
-  recorded_at: Mon, 30 Mar 2015 11:29:00 GMT
+  recorded_at: Mon, 30 Mar 2015 11:29:03 GMT
 recorded_with: VCR 2.9.3

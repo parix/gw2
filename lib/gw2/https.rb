@@ -3,7 +3,7 @@ require "net/https"
 module GW2
   module HTTPS
     DEFAULT_REQUEST = { action: "Get", ssl: true }
-    V1_ENDPOINTS = ["world_names", "event_names", "guild_details", "wvw"]
+    V1_ENDPOINTS = ["world_names", "event_names", "guild_details", "wvw", "map_floor"]
     def query_string(query_hash = {})
       string = query_hash.collect{ |k,v| "#{k}=#{v}" }.join("&")
       string.prepend("?") unless string.empty?

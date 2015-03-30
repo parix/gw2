@@ -17,21 +17,7 @@ describe GW2::Recipe do
 
   describe ".details" do
     before :each do
-      @recipe_details = {
-        "recipe_id" => "1275",
-        "type" => "Coat",
-        "output_item_id" => "11541",
-        "output_item_count" => "1",
-        "min_rating" => "25",
-        "time_to_craft_ms" => "1000",
-        "disciplines"=>["Leatherworker"],
-        "flags"=>[],
-        "ingredients" => [
-          {"item_id" => "19797","count" => "1"},
-          {"item_id" => "13094","count" => "1"},
-          {"item_id" => "13093","count" => "1"}
-        ]
-      }
+      @recipe_details = {"type"=>"Coat", "output_item_id"=>11541, "output_item_count"=>1, "min_rating"=>25, "time_to_craft_ms"=>1000, "disciplines"=>["Leatherworker"], "flags"=>[], "ingredients"=>[{"item_id"=>19797, "count"=>1}, {"item_id"=>13094, "count"=>1}, {"item_id"=>13093, "count"=>1}], "id"=>1275}
     end
 
     it "exists" do

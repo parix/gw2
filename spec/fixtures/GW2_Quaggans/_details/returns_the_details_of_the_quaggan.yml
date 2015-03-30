@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.guildwars2.com/v1/maps.json?map_id=80
+    uri: https://api.guildwars2.com/v2/quaggans/box.json
     body:
       encoding: US-ASCII
       string: ''
@@ -20,6 +20,8 @@ http_interactions:
     headers:
       Content-Type:
       - application/json; charset=utf-8
+      Content-Language:
+      - en
       Vary:
       - Accept-Encoding
       Server:
@@ -29,13 +31,12 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Thu, 26 Feb 2015 22:13:39 GMT
+      - Mon, 30 Mar 2015 11:29:03 GMT
       Content-Length:
-      - '214'
+      - '86'
     body:
       encoding: UTF-8
-      string: '{"maps":{"80":{"map_name":"A Society Function","min_level":10,"max_level":10,"default_floor":1,"floors":[1,2],"region_id":8,"region_name":"Steamspur
-        Mountains","continent_id":1,"continent_name":"Tyria","map_rect":[[-21504,-21504],[24576,21504]],"continent_rect":[[10240,9856],[12160,11648]]}}}'
+      string: '{"id":"box","url":"https://static.staticwars.com/quaggans/box.jpg"}'
     http_version: 
-  recorded_at: Thu, 26 Feb 2015 22:13:39 GMT
+  recorded_at: Mon, 30 Mar 2015 11:29:03 GMT
 recorded_with: VCR 2.9.3
