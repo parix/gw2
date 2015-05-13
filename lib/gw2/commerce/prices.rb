@@ -1,6 +1,6 @@
 module GW2
   module Commerce
-    module Listings
+    module Prices
       extend Resource
 
       def self.all

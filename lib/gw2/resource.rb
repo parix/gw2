@@ -10,7 +10,7 @@ module GW2
     BASE_URL_V2 = "https://api.guildwars2.com/v2"
 
     def get(endpoint, query = {})
-      parse(request(endpoint, query: query).body)
+      parse(request(endpoint, query).body)
     end
   end
 end

@@ -12,6 +12,8 @@ module GW2
     end
 
     def request(end_point = "", attr = {})
+      puts "ATTRIBUTES"
+      puts attr
       attr = DEFAULT_REQUEST.merge(attr)
 
       if V1_ENDPOINTS.any? { |word| end_point.include?(word) }
@@ -24,12 +26,10 @@ module GW2
       http.use_ssl = attr[:ssl]
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE if attr[:ssl] # need to get a cert -_____-
 
-      net_http = Net::HTTP
       request = Net::HTTP.const_get(attr[:action]).new(uri.request_uri)
       attr[:headers].each { |key, value| request[key.to_s] = value } if attr[:headers]
 
       request.set_form_data(attr[:form_data]) if attr[:form_data]
-
       http.request(request)
     end
   end
