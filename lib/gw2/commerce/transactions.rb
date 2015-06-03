@@ -3,7 +3,7 @@ module GW2
     module Transactions
       extend Resource
       def self.current(mode = "buys")
-        get("/commerce/transactions/current/#{mode}.json", headers: {Authorization: "Bearer #{GW2.key}"})
+        get("/commerce/transactions/current/#{mode}.json?access_token=#{GW2.api_key}")
       end
     end
   end
