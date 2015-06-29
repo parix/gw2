@@ -11,5 +11,5 @@ require "gw2/map"
 require "gw2/disabled"
 
 module GW2
-  BASE_URL = "https://api.guildwars2.com/v1"
+  BASE_URL = "https://api.guildwars2.com/v2"
 end

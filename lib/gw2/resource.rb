@@ -6,8 +6,6 @@ module GW2
     include HTTPS
     include JSON
 
-    BASE_URL = "https://api.guildwars2.com/v1"
-
     def get(endpoint, query = {})
       parse(request(endpoint, query: query).body)
     end

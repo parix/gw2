@@ -2,8 +2,6 @@ module GW2
   module Map
     extend Resource
 
-    PARAMS_FILTER = [:map_id]
-
     def self.all
       self.where
     end

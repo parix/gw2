@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.guildwars2.com/v2/items/28445
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '626'
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Language:
+      - en
+      Server:
+      - Microsoft-IIS/7.5
+      X-Result-Total:
+      - '41285'
+      Access-Control-Expose-Headers:
+      - X-Result-Total, X-Result-Count
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Mon, 29 Jun 2015 03:48:43 GMT
+    body:
+      encoding: US-ASCII
+      string: ! '{"name":"Strong Soft Wood Longbow of Fire","description":"","type":"Weapon","level":44,"rarity":"Masterwork","vendor_value":120,"default_skin":3942,"game_types":["Activity","Dungeon","Pve","Wvw"],"flags":["SoulBindOnUse"],"restrictions":[],"id":28445,"icon":"https://render.guildwars2.com/file/C6110F52DF5AFE0F00A56F9E143E9732176DDDE9/65015.png","details":{"type":"LongBow","damage_type":"Physical","min_power":385,"max_power":452,"defense":0,"infusion_slots":[],"infix_upgrade":{"attributes":[{"attribute":"Power","modifier":85},{"attribute":"Precision","modifier":61}]},"suffix_item_id":24547,"secondary_suffix_item_id":""}}'
+    http_version: 
+  recorded_at: Mon, 29 Jun 2015 03:48:49 GMT
+recorded_with: VCR 2.9.3
