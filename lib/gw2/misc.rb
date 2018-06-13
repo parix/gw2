@@ -11,7 +11,7 @@ module GW2
     end
 
     def self.worlds
-      get("/worlds.json", {ids: "all"})
+      get("/worlds.json", { ids: "all" })
     end
   end
 end

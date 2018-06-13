@@ -18,25 +18,97 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Wed, 13 Jun 2018 22:10:39 GMT
       Content-Type:
       - application/json; charset=utf-8
+      Content-Length:
+      - '277'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public,max-age=3600
       Content-Language:
       - en
+      Expires:
+      - Wed, 13 Jun 2018 23:10:39 GMT
       Vary:
       - Accept-Encoding
       Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
+      - Quaggans
+      X-Result-Total:
+      - '549'
+      Access-Control-Expose-Headers:
+      - X-Result-Total
+      X-Rate-Limit-Limit:
+      - '600'
       X-Content-Type-Options:
       - nosniff
-      Date:
-      - Mon, 30 Mar 2015 11:28:59 GMT
-      Content-Length:
-      - '196'
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Powered-By:
+      - ARR/2.5
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
     body:
-      encoding: UTF-8
-      string: '{"id":126,"name":"Hot Pink","base_rgb":[128,26,26],"cloth":{"brightness":14,"contrast":1.21094,"hue":340,"saturation":0.820313,"lightness":1.44531,"rgb":[169,54,94]},"leather":{"brightness":14,"contrast":1.21094,"hue":340,"saturation":0.703125,"lightness":1.44531,"rgb":[160,62,96]},"metal":{"brightness":14,"contrast":1.21094,"hue":340,"saturation":0.585938,"lightness":1.44531,"rgb":[151,69,98]}}'
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "id": 126,
+          "name": "Hot Pink",
+          "base_rgb": [
+            128,
+            26,
+            26
+          ],
+          "cloth": {
+            "brightness": 14,
+            "contrast": 1.21094,
+            "hue": 340,
+            "saturation": 0.820313,
+            "lightness": 1.44531,
+            "rgb": [
+              169,
+              54,
+              94
+            ]
+          },
+          "leather": {
+            "brightness": 14,
+            "contrast": 1.21094,
+            "hue": 340,
+            "saturation": 0.703125,
+            "lightness": 1.44531,
+            "rgb": [
+              160,
+              62,
+              96
+            ]
+          },
+          "metal": {
+            "brightness": 14,
+            "contrast": 1.21094,
+            "hue": 340,
+            "saturation": 0.585938,
+            "lightness": 1.44531,
+            "rgb": [
+              151,
+              69,
+              98
+            ]
+          },
+          "item": 20594,
+          "categories": [
+            "Red",
+            "Vibrant",
+            "Rare"
+          ]
+        }
     http_version: 
-  recorded_at: Mon, 30 Mar 2015 11:28:59 GMT
+  recorded_at: Wed, 13 Jun 2018 22:10:39 GMT
 recorded_with: VCR 2.9.3

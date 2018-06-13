@@ -18,25 +18,50 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Wed, 13 Jun 2018 22:10:46 GMT
       Content-Type:
       - application/json; charset=utf-8
+      Content-Length:
+      - '92'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public,max-age=3600
       Content-Language:
       - en
+      Expires:
+      - Wed, 13 Jun 2018 23:10:46 GMT
       Vary:
       - Accept-Encoding
       Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
+      - Quaggans
+      X-Result-Total:
+      - '35'
+      Access-Control-Expose-Headers:
+      - X-Result-Total
+      X-Rate-Limit-Limit:
+      - '600'
       X-Content-Type-Options:
       - nosniff
-      Date:
-      - Mon, 30 Mar 2015 11:29:03 GMT
-      Content-Length:
-      - '86'
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Powered-By:
+      - ARR/2.5
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
     body:
-      encoding: UTF-8
-      string: '{"id":"box","url":"https://static.staticwars.com/quaggans/box.jpg"}'
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "id": "box",
+          "url": "https://static.staticwars.com/quaggans/box.jpg"
+        }
     http_version: 
-  recorded_at: Mon, 30 Mar 2015 11:29:03 GMT
+  recorded_at: Wed, 13 Jun 2018 22:10:46 GMT
 recorded_with: VCR 2.9.3

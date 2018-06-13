@@ -4,8 +4,8 @@ describe GW2::WvW do
   describe ".objective_names" do
     before :each do
       @objective_names = [
-        {"id" => "30","name" => "Tower"},
-        {"id" => "57","name" => "Tower"}
+        {"id"=>"38-21", "name"=>"Durios Gulch"},
+        {"id"=>"38-20", "name"=>"Veloka Slope"}
       ]
     end
 
@@ -20,7 +20,14 @@ describe GW2::WvW do
 
   describe ".matches" do
     before :each do
-      @match = {"wvw_match_id"=>"1-5", "red_world_id"=>1014, "blue_world_id"=>1010, "green_world_id"=>1004, "start_time"=>"2015-03-28T01:00:00Z", "end_time"=>"2015-04-04T01:00:00Z"}
+      @match = {
+        "wvw_match_id" => "1-1",
+        "red_world_id" => 1019,
+        "blue_world_id" => 1016,
+        "green_world_id" => 1008,
+        "start_time" => "2018-06-09T02:00:00Z",
+        "end_time" => "2018-06-16T01:58:00Z"
+      }
     end
 
     it "exists" do
@@ -34,7 +41,7 @@ describe GW2::WvW do
 
   describe ".match_details" do
     before :each do
-      @scores = [38147, 8524, 8504]
+      @scores = [169318, 126722, 126046]
     end
 
     it "exists" do
