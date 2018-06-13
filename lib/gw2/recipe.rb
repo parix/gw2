@@ -3,11 +3,19 @@ module GW2
     extend Resource
 
     def self.all
-      get("/recipes.json")["recipes"]
+      get("/recipes.json")
     end
 
     def self.details(recipe_id)
-      get("/recipe_details.json", { recipe_id: recipe_id })
+      get("/recipes/#{recipe_id}.json")
+    end
+
+    def self.search_input(item_id)
+      get("/recipes/search.json", { input: item_id})
+    end
+
+    def self.search_output(item_id)
+      get("/recipes/search.json", { output: item_id})
     end
   end
 end

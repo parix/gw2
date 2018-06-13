@@ -31,7 +31,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Thu, 26 Feb 2015 22:15:23 GMT
+      - Mon, 30 Mar 2015 11:29:02 GMT
     body:
       encoding: UTF-8
       string: '{"texture_dims":[32768,32768],"regions":{"1":{"name":"Shiverpeak Mountains","label_coord":[19840,13568],"maps":{"26":{"name":"Dredgehaunt
@@ -300,13 +300,13 @@ http_interactions:
         Strand Waypoint","type":"waypoint","floor":1,"coord":[20975.5,20215.4]},{"poi_id":596,"name":"Rankor
         Ruins Waypoint","type":"waypoint","floor":1,"coord":[19469.6,20689]},{"poi_id":1638,"name":"","type":"vista","floor":1,"coord":[19585.8,19881.6]},{"poi_id":1635,"name":"","type":"vista","floor":1,"coord":[20625.5,20670.1]},{"poi_id":1633,"name":"","type":"vista","floor":1,"coord":[19448.8,18713.1]},{"poi_id":583,"name":"Coil
         Waypoint","type":"waypoint","floor":1,"coord":[20977.1,20692.3]},{"poi_id":597,"name":"Concordia
-        Waypoint","type":"waypoint","floor":1,"coord":[19441.7,20143.9]},{"poi_id":586,"name":"Eztlitl
+        Waypoint","type":"waypoint","floor":1,"coord":[19448.5,20143.9]},{"poi_id":586,"name":"Eztlitl
         Grounds Waypoint","type":"waypoint","floor":1,"coord":[20441.3,20099.8]},{"poi_id":589,"name":"Ogduk
         Waypoint","type":"waypoint","floor":1,"coord":[20671,19515]},{"poi_id":580,"name":"Talus
         Waypoint","type":"waypoint","floor":1,"coord":[19507,21173]},{"poi_id":592,"name":"Gentle
         River Waypoint","type":"waypoint","floor":1,"coord":[19826.4,18809.1]},{"poi_id":595,"name":"Iron
         Veil Waypoint","type":"waypoint","floor":1,"coord":[20417.3,18402.5]},{"poi_id":593,"name":"Thistlereed
-        Waypoint","type":"waypoint","floor":1,"coord":[19466.8,19214]},{"poi_id":1634,"name":"","type":"vista","floor":1,"coord":[20766.5,19906.6]},{"poi_id":594,"name":"Krongar
+        Waypoint","type":"waypoint","floor":1,"coord":[19473.5,19214]},{"poi_id":1634,"name":"","type":"vista","floor":1,"coord":[20766.5,19906.6]},{"poi_id":594,"name":"Krongar
         Waypoint","type":"waypoint","floor":1,"coord":[19185.9,18343.6]},{"poi_id":1636,"name":"","type":"vista","floor":1,"coord":[19397.9,19638.8]},{"poi_id":582,"name":"Okarinoo
         Waypoint","type":"waypoint","floor":1,"coord":[20659.3,21113.4]},{"poi_id":587,"name":"Gyre
         Rapids Waypoint","type":"waypoint","floor":1,"coord":[19676.4,20369.5]},{"poi_id":1094,"name":"Stromkarl
@@ -870,7 +870,7 @@ http_interactions:
         Kraal Waypoint","type":"waypoint","floor":1,"coord":[28870.1,10053.9]},{"poi_id":485,"name":"Warhound
         Village Waypoint","type":"waypoint","floor":1,"coord":[28349.5,12404.7]},{"poi_id":492,"name":"Bulwark
         Waypoint","type":"waypoint","floor":1,"coord":[27278.1,10823.5]},{"poi_id":1594,"name":"","type":"vista","floor":1,"coord":[27856.7,10933.7]},{"poi_id":488,"name":"Sleekfur
-        Encampment Waypoint","type":"waypoint","floor":1,"coord":[27430.1,11773.2]}],"tasks":[{"task_id":153,"objective":"Aid
+        Encampment Waypoint","type":"waypoint","floor":1,"coord":[27436.9,11773.2]}],"tasks":[{"task_id":153,"objective":"Aid
         the Scorch Warband with their assault on the Flame Legion.","level":60,"coord":[27742.8,10210]},{"task_id":150,"objective":"Aid
         Centurion Truthbringer in Echoslab Arches.","level":53,"coord":[27511.6,13238]},{"task_id":151,"objective":"Aid
         Magister Razermane with the preservation of the Old Piken Ruins.","level":54,"coord":[27551.1,12881.8]},{"task_id":152,"objective":"Aid
@@ -1473,7 +1473,7 @@ http_interactions:
         Waypoint","type":"waypoint","floor":1,"coord":[9991.5,15295.2]},{"poi_id":1503,"name":"","type":"vista","floor":1,"coord":[12732.5,15435.3]},{"poi_id":22,"name":"Greyhoof
         Camp Waypoint","type":"waypoint","floor":1,"coord":[10821.1,14271.8]},{"poi_id":10,"name":"Ireko
         Tradecamp Waypoint","type":"waypoint","floor":1,"coord":[10769.7,15779.9]},{"poi_id":953,"name":"Earthworks
-        Camp Waypoint","type":"waypoint","floor":1,"coord":[12658,14777]},{"poi_id":1510,"name":"","type":"vista","floor":1,"coord":[10638.9,15202.1]},{"poi_id":18,"name":"Cereboth
+        Camp Waypoint","type":"waypoint","floor":1,"coord":[12664.8,14777]},{"poi_id":1510,"name":"","type":"vista","floor":1,"coord":[10638.9,15202.1]},{"poi_id":18,"name":"Cereboth
         Waypoint","type":"waypoint","floor":1,"coord":[12760.3,15566.6]},{"poi_id":12,"name":"Shadowheart
         Site Waypoint","type":"waypoint","floor":1,"coord":[10073,15946.2]},{"poi_id":8,"name":"Delanian
         Waypoint","type":"waypoint","floor":1,"coord":[12998.9,14415.6]},{"poi_id":6,"name":"Halacon
@@ -1623,7 +1623,7 @@ http_interactions:
         Mercantile","type":"landmark","floor":1,"coord":[16180.2,14712]},{"poi_id":1066,"name":"Shuttered
         Gate","type":"landmark","floor":1,"coord":[15430.2,15297.1]},{"poi_id":1067,"name":"Vigil
         Centerhouse","type":"landmark","floor":1,"coord":[16706.3,15603.1]},{"poi_id":1397,"name":"","type":"vista","floor":1,"coord":[16173.5,15290.8]},{"poi_id":1072,"name":"Fort
-        Marriner Waypoint","type":"waypoint","floor":1,"coord":[16586.2,15296.5]},{"poi_id":1073,"name":"Eastern
+        Marriner Waypoint","type":"waypoint","floor":1,"coord":[16592.9,15296.5]},{"poi_id":1073,"name":"Eastern
         Ward Waypoint","type":"waypoint","floor":1,"coord":[16860.8,14850.3]},{"poi_id":1038,"name":"Bloodcoast
         Ward Waypoint","type":"waypoint","floor":1,"coord":[16852,15660.3]},{"poi_id":1071,"name":"Sanctum
         Harbor Waypoint","type":"waypoint","floor":1,"coord":[15882.9,15001.2]},{"poi_id":1390,"name":"","type":"vista","floor":1,"coord":[17096.3,14790]},{"poi_id":1070,"name":"Western
@@ -1942,7 +1942,7 @@ http_interactions:
         Hold","type":"landmark","floor":1,"coord":[6294.83,14813]},{"poi_id":1904,"name":"Tangle
         Root Outpost","type":"landmark","floor":1,"coord":[5976.06,17001.4]},{"poi_id":101,"name":"Ulta
         Metamagicals Waypoint","type":"waypoint","floor":1,"coord":[7247.89,16158.8]},{"poi_id":1477,"name":"","type":"vista","floor":1,"coord":[6849.78,17059.2]},{"poi_id":1937,"name":"","type":"unlock","floor":1,"coord":[5930.45,16641.9]},{"poi_id":118,"name":"Mirkrise
-        Waypoint","type":"waypoint","floor":1,"coord":[7095.44,16667.4]},{"poi_id":1480,"name":"","type":"vista","floor":1,"coord":[8371.24,16325.3]},{"poi_id":1478,"name":"","type":"vista","floor":1,"coord":[7805.13,15760.1]},{"poi_id":98,"name":"Seraph
+        Waypoint","type":"waypoint","floor":1,"coord":[7102.11,16667.4]},{"poi_id":1480,"name":"","type":"vista","floor":1,"coord":[8371.24,16325.3]},{"poi_id":1478,"name":"","type":"vista","floor":1,"coord":[7805.13,15760.1]},{"poi_id":98,"name":"Seraph
         Observers Waypoint","type":"waypoint","floor":1,"coord":[7422.58,14675.9]},{"poi_id":1476,"name":"","type":"vista","floor":1,"coord":[7599.19,16577.6]},{"poi_id":97,"name":"Brilitine
         Waypoint","type":"waypoint","floor":1,"coord":[7397.56,15472.7]},{"poi_id":100,"name":"Triforge
         Point Waypoint","type":"waypoint","floor":1,"coord":[6224.5,16125]},{"poi_id":1474,"name":"","type":"vista","floor":1,"coord":[7213.53,14618]},{"poi_id":99,"name":"Gallowfields
@@ -2015,44 +2015,44 @@ http_interactions:
         Quester''s Terrace","level":0,"coord":[10607,21237.7]},{"sector_id":915,"name":"Marshaling
         Field","level":0,"coord":[10376.3,20910.5]},{"sector_id":916,"name":"The Song
         Bower","level":0,"coord":[10433.7,21227.6]},{"sector_id":917,"name":"Envoy''s
-        Terrace","level":0,"coord":[10257.3,21106.4]}]},"139":{"name":"Rata Sum","min_level":0,"max_level":80,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1286,"name":"Dawnside
-        Quay","type":"landmark","floor":1,"coord":[5554.14,21749.4]},{"poi_id":1285,"name":"Antidawn
-        Anchorage","type":"landmark","floor":1,"coord":[5303.33,21867.2]},{"poi_id":1171,"name":"PR-1000
-        Prototype Golem","type":"landmark","floor":1,"coord":[5828.41,20554.4]},{"poi_id":1175,"name":"The
-        Magihedron","type":"landmark","floor":1,"coord":[6112.28,20603.4]},{"poi_id":1177,"name":"Thamaturgic
-        Calculus","type":"landmark","floor":1,"coord":[5927,20825.1]},{"poi_id":1181,"name":"Engaged
-        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19920.1]},{"poi_id":1182,"name":"Zojja''s
-        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20888]},{"poi_id":1183,"name":"Usability
-        Station","type":"landmark","floor":1,"coord":[5855.75,21678.4]},{"poi_id":1482,"name":"","type":"vista","floor":3,"coord":[6124.85,20598.9]},{"poi_id":1044,"name":"Magustan
-        Court Waypoint","type":"waypoint","floor":1,"coord":[6007.11,20523.6]},{"poi_id":1481,"name":"","type":"vista","floor":3,"coord":[5960.72,20678]},{"poi_id":1205,"name":"Incubation
-        Waypoint","type":"waypoint","floor":1,"coord":[5934.47,21515.4]},{"poi_id":1206,"name":"Accountancy
-        Waypoint","type":"waypoint","floor":0,"coord":[5974.81,20652.1]},{"poi_id":1484,"name":"","type":"vista","floor":1,"coord":[6070.92,20629.4]},{"poi_id":1287,"name":"Port
-        Waypoint","type":"waypoint","floor":1,"coord":[5334.08,21805]},{"poi_id":1483,"name":"","type":"vista","floor":1,"coord":[5409.02,22015.8]},{"poi_id":1208,"name":"Research
-        Waypoint","type":"waypoint","floor":3,"coord":[5830.7,20618.6]},{"poi_id":1204,"name":"Magicat
-        Court Waypoint","type":"waypoint","floor":1,"coord":[5813.49,20684]},{"poi_id":1207,"name":"Apprentice
-        Waypoint","type":"waypoint","floor":3,"coord":[6086.51,20664.4]},{"poi_id":1982,"name":"Applied
-        Development Lab (Home)","type":"unlock","floor":1,"coord":[5781.75,20712.1]},{"poi_id":1485,"name":"","type":"vista","floor":0,"coord":[5952.99,20815.7]},{"poi_id":1043,"name":"Metrical
-        Court Waypoint","type":"waypoint","floor":1,"coord":[6083.93,20731.6]},{"poi_id":1209,"name":"Auxiliary
-        Waypoint","type":"waypoint","floor":3,"coord":[5977.72,20789.7]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":856,"name":"Riven
-        Valley","level":0,"coord":[6514.69,21016.8]},{"sector_id":919,"name":"Applied
-        Development Lab (Home)","level":0,"coord":[5051.67,19855.5]},{"sector_id":920,"name":"Snaff
-        Memorial Lab","level":0,"coord":[5246.62,20962.8]},{"sector_id":921,"name":"Advanced
-        Metamystics Lab","level":0,"coord":[5930.81,19851]},{"sector_id":922,"name":"Idea
-        Incubation lab","level":0,"coord":[6028.66,21726.9]},{"sector_id":1016,"name":"Polymock
-        Arenas","level":0,"coord":[7009.28,20213.2]},{"sector_id":1022,"name":"Rata
-        Sum Port Authority","level":0,"coord":[5291.09,21654.3]},{"sector_id":934,"name":"College
-        of Dynamics","level":0,"coord":[5801.93,20531.6]},{"sector_id":935,"name":"Creator''s
-        Commons","level":0,"coord":[5957.66,20659.6]},{"sector_id":936,"name":"College
-        of Statics","level":0,"coord":[6148.92,20588.7]},{"sector_id":937,"name":"College
-        of Synergetics","level":0,"coord":[5921.06,20859.5]},{"sector_id":938,"name":"Arkentia
-        Valley","level":0,"coord":[6025.37,20094.4]},{"sector_id":939,"name":"Magus
-        Valley","level":0,"coord":[5407.75,20756.9]}]},"649":{"name":"Snaff Memorial
-        Lab","min_level":0,"max_level":0,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
-        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20888]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
-        Memorial Lab","level":0,"coord":[5246.62,20962.8]}]},"650":{"name":"Applied
-        Development Lab (Home)","min_level":0,"max_level":0,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
-        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19920.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
-        Development Lab (Home)","level":0,"coord":[5051.67,19855.5]}]}}},"8":{"name":"Steamspur
+        Terrace","level":0,"coord":[10257.3,21106.4]}]},"139":{"name":"Rata Sum","min_level":0,"max_level":80,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1286,"name":"Dawnside
+        Quay","type":"landmark","floor":1,"coord":[5554.14,21811.4]},{"poi_id":1285,"name":"Antidawn
+        Anchorage","type":"landmark","floor":1,"coord":[5303.33,21929.2]},{"poi_id":1171,"name":"PR-1000
+        Prototype Golem","type":"landmark","floor":1,"coord":[5828.41,20616.4]},{"poi_id":1175,"name":"The
+        Magihedron","type":"landmark","floor":1,"coord":[6112.28,20665.4]},{"poi_id":1177,"name":"Thamaturgic
+        Calculus","type":"landmark","floor":1,"coord":[5927,20887.1]},{"poi_id":1181,"name":"Engaged
+        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19982.1]},{"poi_id":1182,"name":"Zojja''s
+        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20950]},{"poi_id":1183,"name":"Usability
+        Station","type":"landmark","floor":1,"coord":[5855.75,21740.4]},{"poi_id":1482,"name":"","type":"vista","floor":3,"coord":[6124.85,20660.9]},{"poi_id":1044,"name":"Magustan
+        Court Waypoint","type":"waypoint","floor":1,"coord":[6007.11,20585.6]},{"poi_id":1481,"name":"","type":"vista","floor":3,"coord":[5960.72,20740]},{"poi_id":1205,"name":"Incubation
+        Waypoint","type":"waypoint","floor":1,"coord":[5934.47,21577.4]},{"poi_id":1206,"name":"Accountancy
+        Waypoint","type":"waypoint","floor":0,"coord":[5974.81,20714.1]},{"poi_id":1484,"name":"","type":"vista","floor":1,"coord":[6070.92,20691.4]},{"poi_id":1287,"name":"Port
+        Waypoint","type":"waypoint","floor":1,"coord":[5334.08,21867]},{"poi_id":1483,"name":"","type":"vista","floor":1,"coord":[5409.02,22077.8]},{"poi_id":1208,"name":"Research
+        Waypoint","type":"waypoint","floor":3,"coord":[5830.7,20680.6]},{"poi_id":1204,"name":"Magicat
+        Court Waypoint","type":"waypoint","floor":1,"coord":[5813.49,20746]},{"poi_id":1207,"name":"Apprentice
+        Waypoint","type":"waypoint","floor":3,"coord":[6086.51,20726.4]},{"poi_id":1982,"name":"Applied
+        Development Lab (Home)","type":"unlock","floor":1,"coord":[5781.75,20774.1]},{"poi_id":1485,"name":"","type":"vista","floor":0,"coord":[5952.99,20877.7]},{"poi_id":1043,"name":"Metrical
+        Court Waypoint","type":"waypoint","floor":1,"coord":[6083.93,20793.6]},{"poi_id":1209,"name":"Auxiliary
+        Waypoint","type":"waypoint","floor":3,"coord":[5977.72,20851.7]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":856,"name":"Riven
+        Valley","level":0,"coord":[6514.69,21078.8]},{"sector_id":919,"name":"Applied
+        Development Lab (Home)","level":0,"coord":[5051.67,19917.5]},{"sector_id":920,"name":"Snaff
+        Memorial Lab","level":0,"coord":[5246.62,21024.8]},{"sector_id":921,"name":"Advanced
+        Metamystics Lab","level":0,"coord":[5930.81,19913]},{"sector_id":922,"name":"Idea
+        Incubation lab","level":0,"coord":[6028.66,21788.9]},{"sector_id":1016,"name":"Polymock
+        Arenas","level":0,"coord":[7009.28,20275.2]},{"sector_id":1022,"name":"Rata
+        Sum Port Authority","level":0,"coord":[5291.09,21716.3]},{"sector_id":934,"name":"College
+        of Dynamics","level":0,"coord":[5801.93,20593.6]},{"sector_id":935,"name":"Creator''s
+        Commons","level":0,"coord":[5957.66,20721.6]},{"sector_id":936,"name":"College
+        of Statics","level":0,"coord":[6148.92,20650.7]},{"sector_id":937,"name":"College
+        of Synergetics","level":0,"coord":[5921.06,20921.5]},{"sector_id":938,"name":"Arkentia
+        Valley","level":0,"coord":[6025.37,20156.4]},{"sector_id":939,"name":"Magus
+        Valley","level":0,"coord":[5407.75,20818.9]}]},"649":{"name":"Snaff Memorial
+        Lab","min_level":0,"max_level":0,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
+        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20950]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
+        Memorial Lab","level":0,"coord":[5246.62,21024.8]}]},"650":{"name":"Applied
+        Development Lab (Home)","min_level":0,"max_level":0,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
+        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19982.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
+        Development Lab (Home)","level":0,"coord":[5051.67,19917.5]}]}}},"8":{"name":"Steamspur
         Mountains","label_coord":[18304,21240],"maps":{"37":{"name":"Arson at the
         Orphanage","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-21504,-21504],[24576,21504]],"continent_rect":[[10240,9856],[12160,11648]],"points_of_interest":[{"poi_id":261,"name":"Vanguard
         Hospital","type":"landmark","floor":1,"coord":[11585.8,10193.9]},{"poi_id":267,"name":"Cottage
@@ -2760,15 +2760,15 @@ http_interactions:
         Footsteps","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[{"poi_id":52,"name":"Battleground
         Plaza","type":"landmark","floor":1,"coord":[7810.08,19961.4]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":164,"name":"The
         Hinterlabs","level":3,"coord":[7910.58,20138.9]}]},"575":{"name":"Golem Positioning
-        System","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
-        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19920.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
-        Development Lab (Home)","level":0,"coord":[5051.67,19855.5]}]},"576":{"name":"Monkey
+        System","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
+        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19982.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
+        Development Lab (Home)","level":0,"coord":[5051.67,19917.5]}]},"576":{"name":"Monkey
         Wrench","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":152,"name":"Obscura
         Incline","level":6,"coord":[7596.71,19582.4]},{"sector_id":165,"name":"The
         Funhouse","level":6,"coord":[7387.75,19487.3]}]},"577":{"name":"Defusing the
-        Problem","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
-        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19920.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
-        Development Lab (Home)","level":0,"coord":[5051.67,19855.5]}]},"578":{"name":"The
+        Problem","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
+        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19982.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
+        Development Lab (Home)","level":0,"coord":[5051.67,19917.5]}]},"578":{"name":"The
         Things We Do For Love","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":149,"name":"Desider
         Atum","level":9,"coord":[8612.13,18871.8]}]},"579":{"name":"The Snaff Prize","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[{"poi_id":52,"name":"Battleground
         Plaza","type":"landmark","floor":1,"coord":[7810.08,19961.4]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":164,"name":"The
@@ -2789,9 +2789,9 @@ http_interactions:
         Caves","level":9,"coord":[9033.51,19860.1]},{"sector_id":163,"name":"Loch
         Jezt","level":5,"coord":[8268.9,19715.8]},{"sector_id":164,"name":"The Hinterlabs","level":3,"coord":[7910.58,20138.9]}]},"587":{"name":"Here,
         There, Everywhere","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":147,"name":"Voloxian
-        Passage","level":8,"coord":[8158.16,19165]}]},"588":{"name":"Piece Negotiations","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
-        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19920.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
-        Development Lab (Home)","level":0,"coord":[5051.67,19855.5]}]},"590":{"name":"Snaff
+        Passage","level":8,"coord":[8158.16,19165]}]},"588":{"name":"Piece Negotiations","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
+        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19982.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
+        Development Lab (Home)","level":0,"coord":[5051.67,19917.5]}]},"590":{"name":"Snaff
         Would Be Proud","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":162,"name":"Jeztar
         Falls","level":4,"coord":[8685.61,20133.7]}]},"591":{"name":"Readings On the
         Rise","min_level":10,"max_level":10,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":152,"name":"Obscura
@@ -2808,45 +2808,45 @@ http_interactions:
         Alchemics","type":"landmark","floor":1,"coord":[8217.65,18858.9]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":146,"name":"Michoan
         Marsh","level":11,"coord":[8141.5,18761.1]},{"sector_id":147,"name":"Voloxian
         Passage","level":8,"coord":[8158.16,19165]}]},"596":{"name":"Where Credit
-        Is Due","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
-        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20888]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
-        Memorial Lab","level":0,"coord":[5246.62,20962.8]}]},"597":{"name":"Where
+        Is Due","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
+        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20950]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
+        Memorial Lab","level":0,"coord":[5246.62,21024.8]}]},"597":{"name":"Where
         Credit Is Due","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":149,"name":"Desider
         Atum","level":9,"coord":[8611.29,18876.2]}]},"598":{"name":"Short Fuse","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[{"poi_id":1134,"name":"Transformer
         Hub Kachong","type":"landmark","floor":1,"coord":[8550.74,17844.5]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":148,"name":"Artergon
         Woods","level":13,"coord":[8429.36,18281.2]},{"sector_id":156,"name":"Hexane
-        Regrade","level":14,"coord":[8904.94,17586.5]}]},"599":{"name":"Short Fuse","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
-        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19920.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
-        Development Lab (Home)","level":0,"coord":[5051.67,19855.5]}]},"606":{"name":"Salt
+        Regrade","level":14,"coord":[8904.94,17586.5]}]},"599":{"name":"Short Fuse","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1181,"name":"Engaged
+        Demo Station","type":"landmark","floor":1,"coord":[4875.99,19982.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":919,"name":"Applied
+        Development Lab (Home)","level":0,"coord":[5051.67,19917.5]}]},"606":{"name":"Salt
         in the Wound","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[{"poi_id":61,"name":"Inner
         Inquest Complex","type":"landmark","floor":1,"coord":[9120.38,17270.6]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":159,"name":"Inquest
         Outer Complex","level":14,"coord":[9092.7,17338.4]}]},"607":{"name":"Free
         Rein","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-39936,-30720],[43008,33792]],"continent_rect":[[5888,14464],[9344,17152]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":129,"name":"Karston
         Chambers","level":17,"coord":[9116.64,16842.1]}]},"608":{"name":"Serving Up
-        Trouble","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
-        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20888]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
-        Memorial Lab","level":0,"coord":[5246.62,20962.8]}]},"609":{"name":"Serving
+        Trouble","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
+        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20950]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
+        Memorial Lab","level":0,"coord":[5246.62,21024.8]}]},"609":{"name":"Serving
         Up Trouble","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":149,"name":"Desider
         Atum","level":9,"coord":[8611.29,18876.2]}]},"611":{"name":"I Smell a Rat","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-39936,-30720],[43008,33792]],"continent_rect":[[5888,14464],[9344,17152]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":133,"name":"Venlin
         Vale","level":16,"coord":[8115.19,16777.9]},{"sector_id":137,"name":"Skrittsburgh
-        Tunnels","level":17,"coord":[8221.47,16145.9]}]},"613":{"name":"Magnum Opus","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
-        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20888]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
-        Memorial Lab","level":0,"coord":[5246.62,20962.8]}]},"614":{"name":"Magnum
-        Opus","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1171,"name":"PR-1000
-        Prototype Golem","type":"landmark","floor":1,"coord":[5828.41,20554.4]},{"poi_id":1175,"name":"The
-        Magihedron","type":"landmark","floor":1,"coord":[6112.28,20603.4]},{"poi_id":1177,"name":"Thamaturgic
-        Calculus","type":"landmark","floor":1,"coord":[5927,20825.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":934,"name":"College
-        of Dynamics","level":0,"coord":[5801.93,20531.6]},{"sector_id":935,"name":"Creator''s
-        Commons","level":0,"coord":[5957.66,20659.6]},{"sector_id":936,"name":"College
-        of Statics","level":0,"coord":[6148.92,20588.7]},{"sector_id":937,"name":"College
-        of Synergetics","level":0,"coord":[5921.06,20859.5]}]},"617":{"name":"Bad
+        Tunnels","level":17,"coord":[8221.47,16145.9]}]},"613":{"name":"Magnum Opus","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
+        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20950]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
+        Memorial Lab","level":0,"coord":[5246.62,21024.8]}]},"614":{"name":"Magnum
+        Opus","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1171,"name":"PR-1000
+        Prototype Golem","type":"landmark","floor":1,"coord":[5828.41,20616.4]},{"poi_id":1175,"name":"The
+        Magihedron","type":"landmark","floor":1,"coord":[6112.28,20665.4]},{"poi_id":1177,"name":"Thamaturgic
+        Calculus","type":"landmark","floor":1,"coord":[5927,20887.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":934,"name":"College
+        of Dynamics","level":0,"coord":[5801.93,20593.6]},{"sector_id":935,"name":"Creator''s
+        Commons","level":0,"coord":[5957.66,20721.6]},{"sector_id":936,"name":"College
+        of Statics","level":0,"coord":[6148.92,20650.7]},{"sector_id":937,"name":"College
+        of Synergetics","level":0,"coord":[5921.06,20921.5]}]},"617":{"name":"Bad
         Business","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-39936,-30720],[43008,33792]],"continent_rect":[[5888,14464],[9344,17152]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":134,"name":"Zinder
         Slope","level":16,"coord":[9021.3,16351.5]}]},"618":{"name":"Beta Test","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-39936,-30720],[43008,33792]],"continent_rect":[[5888,14464],[9344,17152]],"points_of_interest":[{"poi_id":102,"name":"Aethervolt
         Lab","type":"landmark","floor":1,"coord":[8334.52,16941.6]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":133,"name":"Venlin
         Vale","level":16,"coord":[8115.19,16777.9]}]},"620":{"name":"Any Sufficiently
-        Advanced Science","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
-        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20888]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
-        Memorial Lab","level":0,"coord":[5246.62,20962.8]}]},"621":{"name":"Any Sufficiently
+        Advanced Science","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1182,"name":"Zojja''s
+        Workstation (Don''t Touch!)","type":"landmark","floor":1,"coord":[5414.93,20950]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":920,"name":"Snaff
+        Memorial Lab","level":0,"coord":[5246.62,21024.8]}]},"621":{"name":"Any Sufficiently
         Advanced Science","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-24576,-39936],[27648,39936]],"continent_rect":[[7168,17152],[9344,20480]],"points_of_interest":[{"poi_id":59,"name":"Conduit
         Tower Blig","type":"landmark","floor":1,"coord":[8605.63,18049.3]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":144,"name":"Luminates
         Plant","level":12,"coord":[9150.84,18198.4]},{"sector_id":156,"name":"Hexane
@@ -2858,17 +2858,17 @@ http_interactions:
         Vale","level":16,"coord":[8115.19,16777.9]},{"sector_id":131,"name":"Gotala
         Cascade","level":23,"coord":[7708.05,16016.7]}]},"624":{"name":"Split Second","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-39936,-30720],[43008,33792]],"continent_rect":[[5888,14464],[9344,17152]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":123,"name":"The
         Wendon Steps","level":19,"coord":[9013.16,14885.7]}]},"625":{"name":"Carry
-        a Big Stick","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1183,"name":"Usability
-        Station","type":"landmark","floor":1,"coord":[5855.75,21678.4]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":922,"name":"Idea
-        Incubation lab","level":0,"coord":[6028.66,21726.9]}]},"627":{"name":"Meeting
+        a Big Stick","min_level":20,"max_level":25,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1183,"name":"Usability
+        Station","type":"landmark","floor":1,"coord":[5855.75,21740.4]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":922,"name":"Idea
+        Incubation lab","level":0,"coord":[6028.66,21788.9]}]},"627":{"name":"Meeting
         my Mentor","min_level":40,"max_level":40,"default_floor":1,"map_rect":[[-27648,-18432],[30720,18432]],"continent_rect":[[15232,14336],[17664,15872]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":854,"name":"Canal
         Ward","level":0,"coord":[16111.5,14449.9]},{"sector_id":864,"name":"Trader''s
         Forum","level":0,"coord":[16196.5,14643.5]}]},"628":{"name":"Stealing Secrets","min_level":40,"max_level":40,"default_floor":1,"map_rect":[[-49152,-24576],[52224,24576]],"continent_rect":[[13440,12288],[17664,14336]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":259,"name":"Cornucopian
-        Fields","level":30,"coord":[15986.3,13954]}]},"630":{"name":"Forging Permission","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1183,"name":"Usability
-        Station","type":"landmark","floor":1,"coord":[5855.75,21678.4]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":922,"name":"Idea
-        Incubation lab","level":0,"coord":[6028.66,21726.9]}]},"631":{"name":"Forging
-        Permission","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":921,"name":"Advanced
-        Metamystics Lab","level":0,"coord":[5930.81,19851]}]},"633":{"name":"With
+        Fields","level":30,"coord":[15986.3,13954]}]},"630":{"name":"Forging Permission","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1183,"name":"Usability
+        Station","type":"landmark","floor":1,"coord":[5855.75,21740.4]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":922,"name":"Idea
+        Incubation lab","level":0,"coord":[6028.66,21788.9]}]},"631":{"name":"Forging
+        Permission","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":921,"name":"Advanced
+        Metamystics Lab","level":0,"coord":[5930.81,19913]}]},"633":{"name":"With
         a Single Step","min_level":40,"max_level":40,"default_floor":1,"map_rect":[[-27648,-18432],[30720,18432]],"continent_rect":[[15232,14336],[17664,15872]],"points_of_interest":[{"poi_id":1065,"name":"Lion''s
         Court","type":"landmark","floor":1,"coord":[16381.8,14909.7]},{"poi_id":1054,"name":"Commodore''s
         Manor","type":"landmark","floor":1,"coord":[16526.4,14976.4]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":864,"name":"Trader''s
@@ -2878,8 +2878,8 @@ http_interactions:
         Archives","type":"landmark","floor":1,"coord":[17741.3,14664.7]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":947,"name":"Durmand
         Priory","level":31,"coord":[17843.4,14618.8]}]},"635":{"name":"Containment","min_level":40,"max_level":40,"default_floor":1,"map_rect":[[-21504,-58368],[21504,58368]],"continent_rect":[[17664,13312],[19456,18176]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":339,"name":"Lake
         of Lamentation","level":32,"coord":[19056.8,15277.3]},{"sector_id":329,"name":"Reaper''s
-        Gate","level":34,"coord":[19344,15744.4]}]},"636":{"name":"Hazardous Environment","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":921,"name":"Advanced
-        Metamystics Lab","level":0,"coord":[5930.81,19851]}]},"638":{"name":"Down
+        Gate","level":34,"coord":[19344,15744.4]}]},"636":{"name":"Hazardous Environment","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":921,"name":"Advanced
+        Metamystics Lab","level":0,"coord":[5930.81,19913]}]},"638":{"name":"Down
         the Hatch","min_level":40,"max_level":40,"default_floor":1,"map_rect":[[-49152,-24576],[52224,24576]],"continent_rect":[[13440,12288],[17664,14336]],"points_of_interest":[{"poi_id":957,"name":"Jackdaw''s
         Reef","type":"landmark","floor":1,"coord":[15944.8,13027.7]},{"poi_id":958,"name":"Slade''s
         Bay","type":"landmark","floor":1,"coord":[15778.3,13161.5]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":257,"name":"Lake
@@ -2901,10 +2901,10 @@ http_interactions:
         Dale","level":26,"coord":[13684.5,13965.7]},{"sector_id":252,"name":"The Lawen
         Ponds","level":26,"coord":[14097.1,14090.5]},{"sector_id":251,"name":"Talajian
         Piedmont","level":26,"coord":[14034.4,13564.3]}]},"652":{"name":"A Meeting
-        of the Minds","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[{"poi_id":1177,"name":"Thamaturgic
-        Calculus","type":"landmark","floor":1,"coord":[5927,20825.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":935,"name":"Creator''s
-        Commons","level":0,"coord":[5957.66,20659.6]},{"sector_id":937,"name":"College
-        of Synergetics","level":0,"coord":[5921.06,20859.5]}]},"653":{"name":"Mightier
+        of the Minds","min_level":30,"max_level":35,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[{"poi_id":1177,"name":"Thamaturgic
+        Calculus","type":"landmark","floor":1,"coord":[5927,20887.1]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":935,"name":"Creator''s
+        Commons","level":0,"coord":[5957.66,20721.6]},{"sector_id":937,"name":"College
+        of Synergetics","level":0,"coord":[5921.06,20921.5]}]},"653":{"name":"Mightier
         than the Sword","min_level":40,"max_level":40,"default_floor":1,"map_rect":[[-21504,-58368],[21504,58368]],"continent_rect":[[17664,13312],[19456,18176]],"points_of_interest":[{"poi_id":281,"name":"Black
         Barl''s Mill","type":"landmark","floor":1,"coord":[18200.1,17708.9]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":323,"name":"Lost
         Delver''s Ridge","level":37,"coord":[18673.3,17278.5]},{"sector_id":320,"name":"Demon''s
@@ -3054,8 +3054,8 @@ http_interactions:
         Psi-Lance","min_level":60,"max_level":60,"default_floor":1,"map_rect":[[-27648,-36864],[27648,39936]],"continent_rect":[[18944,18176],[21248,21376]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":562,"name":"The
         Iron Veil","level":52,"coord":[20469,18491.6]}]},"710":{"name":"Early Parole","min_level":60,"max_level":60,"default_floor":1,"map_rect":[[-43008,-27648],[43008,30720]],"continent_rect":[[9856,11648],[13440,14080]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":48,"name":"Shire
         of Beetletun","level":13,"coord":[13132.9,11840.5]}]},"711":{"name":"Magic
-        Sucks","min_level":60,"max_level":60,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19648],[7168,22208]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":921,"name":"Advanced
-        Metamystics Lab","level":0,"coord":[5930.81,19851]}]},"713":{"name":"The Priory
+        Sucks","min_level":60,"max_level":60,"default_floor":1,"map_rect":[[-30720,-30720],[30720,30720]],"continent_rect":[[4608,19710],[7168,22270]],"points_of_interest":[],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":921,"name":"Advanced
+        Metamystics Lab","level":0,"coord":[5930.81,19913]}]},"713":{"name":"The Priory
         Assailed","min_level":60,"max_level":60,"default_floor":1,"map_rect":[[-21504,-58368],[21504,58368]],"continent_rect":[[17664,13312],[19456,18176]],"points_of_interest":[{"poi_id":294,"name":"Ogden''s
         Quarters","type":"landmark","floor":1,"coord":[18032.9,14985.9]},{"poi_id":293,"name":"Priory
         Archives","type":"landmark","floor":1,"coord":[17741.3,14664.7]}],"tasks":[],"skill_challenges":[],"sectors":[{"sector_id":947,"name":"Durmand
@@ -3437,5 +3437,5 @@ http_interactions:
         Labyrinth","level":80,"coord":[4243.44,15491.5]},{"sector_id":1201,"name":"Camp
         Resolve","level":80,"coord":[5627.84,15386.9]}]}}}}}'
     http_version: 
-  recorded_at: Thu, 26 Feb 2015 22:15:24 GMT
+  recorded_at: Mon, 30 Mar 2015 11:29:02 GMT
 recorded_with: VCR 2.9.3

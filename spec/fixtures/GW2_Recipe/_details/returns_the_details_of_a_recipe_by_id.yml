@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.guildwars2.com/v1/recipe_details.json?recipe_id=1275
+    uri: https://api.guildwars2.com/v2/recipes/1275.json
     body:
       encoding: US-ASCII
       string: ''
@@ -20,6 +20,8 @@ http_interactions:
     headers:
       Content-Type:
       - application/json; charset=utf-8
+      Content-Language:
+      - en
       Vary:
       - Accept-Encoding
       Server:
@@ -29,12 +31,12 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Thu, 26 Feb 2015 22:26:16 GMT
+      - Mon, 30 Mar 2015 11:29:02 GMT
       Content-Length:
-      - '179'
+      - '174'
     body:
       encoding: UTF-8
-      string: '{"recipe_id":"1275","type":"Coat","output_item_id":"11541","output_item_count":"1","min_rating":"25","time_to_craft_ms":"1000","disciplines":["Leatherworker"],"flags":[],"ingredients":[{"item_id":"19797","count":"1"},{"item_id":"13094","count":"1"},{"item_id":"13093","count":"1"}]}'
+      string: '{"type":"Coat","output_item_id":11541,"output_item_count":1,"min_rating":25,"time_to_craft_ms":1000,"disciplines":["Leatherworker"],"flags":[],"ingredients":[{"item_id":19797,"count":1},{"item_id":13094,"count":1},{"item_id":13093,"count":1}],"id":1275}'
     http_version: 
-  recorded_at: Thu, 26 Feb 2015 22:26:16 GMT
+  recorded_at: Mon, 30 Mar 2015 11:29:03 GMT
 recorded_with: VCR 2.9.3

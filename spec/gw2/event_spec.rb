@@ -30,19 +30,6 @@ describe GW2::Event do
     end
   end
 
-  describe ".map_names" do
-    before :each do
-      @map = { "id" => "15", "name" => "Queensdale" }
-    end
-
-    it "exists" do
-      expect(GW2::Event.respond_to?(:map_names)).to eq(true)
-    end
-
-    it "returns the names of all maps", :vcr do
-      expect(GW2::Event.map_names).to include(@map)
-    end
-  end
 
   describe ".all" do
     it "exists" do

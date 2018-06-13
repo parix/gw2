@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.guildwars2.com/v1/build.json
+    uri: https://api.guildwars2.com/v2/build.json
     body:
       encoding: US-ASCII
       string: ''
@@ -29,12 +29,12 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Thu, 26 Feb 2015 22:20:34 GMT
+      - Mon, 30 Mar 2015 11:29:02 GMT
       Content-Length:
-      - '53'
+      - '47'
     body:
       encoding: UTF-8
-      string: '{"build_id":45662}'
+      string: '{"id":46704}'
     http_version: 
-  recorded_at: Thu, 26 Feb 2015 22:20:34 GMT
+  recorded_at: Mon, 30 Mar 2015 11:29:02 GMT
 recorded_with: VCR 2.9.3

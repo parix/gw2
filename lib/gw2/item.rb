@@ -3,11 +3,11 @@ module GW2
     extend Resource
 
     def self.all
-      get("/items.json")["items"]
+      get("/items.json")
     end
 
     def self.details(item_id)
-      get("/item_details.json", { item_id: item_id })
+      get("/items/#{item_id}.json")
     end
   end
 end

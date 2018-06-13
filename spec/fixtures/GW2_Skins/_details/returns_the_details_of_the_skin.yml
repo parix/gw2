@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.guildwars2.com/v1/guild_details.json?guild_id=16DB5921-CF1B-48D2-A5A0-2F0AADD9765D
+    uri: https://api.guildwars2.com/v2/skins/5904.json
     body:
       encoding: US-ASCII
       string: ''
@@ -20,6 +20,8 @@ http_interactions:
     headers:
       Content-Type:
       - application/json; charset=utf-8
+      Content-Language:
+      - en
       Vary:
       - Accept-Encoding
       Server:
@@ -29,12 +31,12 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Date:
-      - Mon, 30 Mar 2015 11:28:59 GMT
+      - Mon, 30 Mar 2015 11:39:28 GMT
       Content-Length:
-      - '175'
+      - '218'
     body:
       encoding: UTF-8
-      string: '{"guild_id":"16DB5921-CF1B-48D2-A5A0-2F0AADD9765D","guild_name":"Ruinous","tag":"RUIN","emblem":{"background_id":1,"foreground_id":70,"flags":[],"background_color_id":473,"foreground_primary_color_id":146,"foreground_secondary_color_id":146}}'
+      string: '{"name":"Shadow Hammer","type":"Weapon","flags":["ShowInWardrobe"],"restrictions":[],"id":5904,"icon":"https://render.guildwars2.com/file/0766F6FB807B2821C5264ED7781FA7F8DE66A60E/960252.png","details":{"type":"Hammer","damage_type":"Physical"}}'
     http_version: 
-  recorded_at: Mon, 30 Mar 2015 11:29:00 GMT
+  recorded_at: Mon, 30 Mar 2015 11:39:28 GMT
 recorded_with: VCR 2.9.3

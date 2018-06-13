@@ -20,14 +20,7 @@ describe GW2::WvW do
 
   describe ".matches" do
     before :each do
-      @match = {
-        "wvw_match_id"=>"1-6",
-        "red_world_id"=>1022,
-        "blue_world_id"=>1001,
-        "green_world_id"=>1007,
-        "start_time"=>"2015-02-21T01:00:00Z",
-        "end_time"=>"2015-02-28T01:00:00Z"
-      }
+      @match = {"wvw_match_id"=>"1-5", "red_world_id"=>1014, "blue_world_id"=>1010, "green_world_id"=>1004, "start_time"=>"2015-03-28T01:00:00Z", "end_time"=>"2015-04-04T01:00:00Z"}
     end
 
     it "exists" do
@@ -41,7 +34,7 @@ describe GW2::WvW do
 
   describe ".match_details" do
     before :each do
-      @scores = [85114, 17896, 25292]
+      @scores = [38147, 8524, 8504]
     end
 
     it "exists" do
