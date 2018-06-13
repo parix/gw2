@@ -15,7 +15,7 @@ module GW2
     end
 
     def self.event_names
-      get("/event_names.json")
+      raise GW2::Disabled, "This endpoint is disabled."
     end
 
     def self.map_names

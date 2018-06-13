@@ -18,27 +18,85 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Wed, 13 Jun 2018 22:10:46 GMT
       Content-Type:
       - application/json; charset=utf-8
+      Content-Length:
+      - '207'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public,max-age=3600
       Content-Language:
       - en
+      Expires:
+      - Wed, 13 Jun 2018 23:10:46 GMT
       Vary:
       - Accept-Encoding
       Server:
-      - Microsoft-IIS/7.5
+      - Quaggans
+      X-Result-Total:
+      - '35'
       X-Result-Count:
       - '35'
-      Access-Control-Allow-Origin:
-      - "*"
+      Access-Control-Expose-Headers:
+      - X-Result-Total,X-Result-Count
+      X-Rate-Limit-Limit:
+      - '600'
       X-Content-Type-Options:
       - nosniff
-      Date:
-      - Mon, 30 Mar 2015 11:29:02 GMT
-      Content-Length:
-      - '197'
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Powered-By:
+      - ARR/2.5
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
     body:
-      encoding: UTF-8
-      string: '["404","aloha","attack","bear","bowl","box","breakfast","bubble","cake","cheer","coffee","construction","cow","cry","elf","ghost","girl","hat","helmut","hoodie-down","hoodie-up","killerwhale","knight","lollipop","lost","moving","party","present","quaggan","rain","scifi","seahawks","sleep","summer","vacation"]'
+      encoding: ASCII-8BIT
+      string: |-
+        [
+          "404",
+          "aloha",
+          "attack",
+          "bear",
+          "bowl",
+          "box",
+          "breakfast",
+          "bubble",
+          "cake",
+          "cheer",
+          "coffee",
+          "construction",
+          "cow",
+          "cry",
+          "elf",
+          "ghost",
+          "girl",
+          "hat",
+          "helmut",
+          "hoodie-down",
+          "hoodie-up",
+          "killerwhale",
+          "knight",
+          "lollipop",
+          "lost",
+          "moving",
+          "party",
+          "present",
+          "quaggan",
+          "rain",
+          "scifi",
+          "seahawks",
+          "sleep",
+          "summer",
+          "vacation"
+        ]
     http_version: 
-  recorded_at: Mon, 30 Mar 2015 11:29:03 GMT
+  recorded_at: Wed, 13 Jun 2018 22:10:46 GMT
 recorded_with: VCR 2.9.3

@@ -3,7 +3,7 @@ require "spec_helper"
 describe GW2::Misc do
   describe ".build" do
     before :each do
-      @build = 46704
+      @build = 89447
     end
 
     it "exists" do

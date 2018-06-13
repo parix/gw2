@@ -18,32 +18,103 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Wed, 13 Jun 2018 22:10:48 GMT
       Content-Type:
       - application/json; charset=utf-8
+      Content-Length:
+      - '1817'
+      Connection:
+      - keep-alive
       Vary:
       - Accept-Encoding
       Server:
-      - Microsoft-IIS/7.5
+      - Quaggans
       Access-Control-Allow-Origin:
       - "*"
       X-Content-Type-Options:
       - nosniff
-      Date:
-      - Mon, 30 Mar 2015 11:29:03 GMT
-      Content-Length:
-      - '491'
+      - nosniff
+      X-Powered-By:
+      - ARR/2.5
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
     body:
-      encoding: UTF-8
-      string: '[{"id":"30","name":"Tower"},{"id":"57","name":"Tower"},{"id":"9","name":"Castle"},{"id":"20","name":"Tower"},{"id":"76","name":"((390032))"},{"id":"25","name":"Tower"},{"id":"66","name":"((273921))"},{"id":"32","name":"Keep"},{"id":"47","name":"Tower"},{"id":"37","name":"Keep"},{"id":"60","name":"Lumber
-        Mill"},{"id":"27","name":"Keep"},{"id":"5","name":"Red Mine"},{"id":"50","name":"Fishing
-        Village"},{"id":"75","name":"((327897))"},{"id":"16","name":"Tower"},{"id":"42","name":"Tower"},{"id":"40","name":"Tower"},{"id":"35","name":"Tower"},{"id":"70","name":"((440164))"},{"id":"22","name":"Tower"},{"id":"64","name":"((273919))"},{"id":"48","name":"Quarry"},{"id":"69","name":"((421605))"},{"id":"61","name":"Fishing
-        Village"},{"id":"52","name":"Quarry"},{"id":"74","name":"((452864))"},{"id":"17","name":"Tower"},{"id":"31","name":"Keep"},{"id":"51","name":"Lumber
-        Mill"},{"id":"62","name":"((273917))"},{"id":"55","name":"Fishing Village"},{"id":"18","name":"Tower"},{"id":"29","name":"Crossroads"},{"id":"21","name":"Tower"},{"id":"2","name":"Keep"},{"id":"38","name":"Tower"},{"id":"15","name":"Tower"},{"id":"63","name":"((273918))"},{"id":"26","name":"Tower"},{"id":"44","name":"Keep"},{"id":"33","name":"Keep"},{"id":"4","name":"Green
-        Mill"},{"id":"10","name":"Green Mine"},{"id":"39","name":"Crossroads"},{"id":"6","name":"Red
-        Mill"},{"id":"34","name":"Orchard"},{"id":"11","name":"Tower"},{"id":"58","name":"Quarry"},{"id":"45","name":"Tower"},{"id":"54","name":"Lumber
-        Mill"},{"id":"12","name":"Tower"},{"id":"71","name":"((502887))"},{"id":"49","name":"Workshop"},{"id":"8","name":"Blue
-        Mill"},{"id":"1","name":"Keep"},{"id":"41","name":"Keep"},{"id":"53","name":"Workshop"},{"id":"56","name":"Crossroads"},{"id":"68","name":"((370265))"},{"id":"36","name":"Tower"},{"id":"43","name":"Orchard"},{"id":"23","name":"Keep"},{"id":"73","name":"((427496))"},{"id":"14","name":"Tower"},{"id":"67","name":"((327900))"},{"id":"24","name":"Orchard"},{"id":"72","name":"((523810))"},{"id":"3","name":"Keep"},{"id":"19","name":"Tower"},{"id":"28","name":"Tower"},{"id":"65","name":"((273920))"},{"id":"46","name":"Keep"},{"id":"59","name":"Workshop"},{"id":"7","name":"Blue
-        Mine"},{"id":"13","name":"Tower"}]'
+      encoding: ASCII-8BIT
+      string: '[{"id":"96-62","name":"Temple of Lost Prayers"},{"id":"94-62","name":"Temple
+        of Lost Prayers"},{"id":"95-62","name":"Temple of the Fallen"},{"id":"94-35","name":"Greenbriar"},{"id":"96-35","name":"Redbriar"},{"id":"95-35","name":"Bluebriar"},{"id":"94-103","name":"Border"},{"id":"96-103","name":"Border"},{"id":"95-103","name":"Border"},{"id":"94-32","name":"Etheron
+        Hills"},{"id":"96-32","name":"Askalion Hills"},{"id":"95-32","name":"Shadaran
+        Hills"},{"id":"94-33","name":"Dreaming Bay"},{"id":"96-33","name":"Ascension
+        Bay"},{"id":"95-33","name":"Dreadfall Bay"},{"id":"96-65","name":"Orchard
+        Overlook"},{"id":"94-65","name":"Orchard Overlook"},{"id":"95-65","name":"Cohen''s
+        Overlook"},{"id":"94-38","name":"Longview"},{"id":"96-38","name":"Woodhaven"},{"id":"95-38","name":"Sunnyhill"},{"id":"94-39","name":"The
+        Godsword"},{"id":"96-39","name":"The Spiritholme"},{"id":"95-39","name":"The
+        Titanpaw"},{"id":"96-64","name":"Bauer''s Estate"},{"id":"94-64","name":"Bauer''s
+        Estate"},{"id":"95-64","name":"Gertzz''s Estate"},{"id":"94-37","name":"Garrison"},{"id":"96-37","name":"Garrison"},{"id":"95-37","name":"Garrison"},{"id":"94-53","name":"Greenvale
+        Refuge"},{"id":"96-53","name":"Redvale Refuge"},{"id":"95-53","name":"Bluevale
+        Refuge"},{"id":"94-111","name":"Citadel"},{"id":"96-111","name":"Citadel"},{"id":"95-111","name":"Citadel"},{"id":"94-112","name":"Border"},{"id":"96-112","name":"Border"},{"id":"95-112","name":"Border"},{"id":"94-52","name":"Arah''s
+        Hope"},{"id":"96-52","name":"Godslore"},{"id":"95-52","name":"Faithleap"},{"id":"94-51","name":"Astralholme"},{"id":"96-51","name":"Stargrove"},{"id":"95-51","name":"Foghaven"},{"id":"96-66","name":"Carver''s
+        Ascent"},{"id":"94-66","name":"Carver''s Ascent"},{"id":"95-66","name":"Patrick''s
+        Ascent"},{"id":"94-34","name":"Victor''s Lodge"},{"id":"96-34","name":"Champion''s
+        Demesne"},{"id":"95-34","name":"Hero''s Lodge"},{"id":"94-36","name":"Bluelake"},{"id":"96-36","name":"Greenlake"},{"id":"95-36","name":"Redlake"},{"id":"94-50","name":"Bluewater
+        Lowlands"},{"id":"96-50","name":"Greenwater Lowlands"},{"id":"95-50","name":"Redwater
+        Lowlands"},{"id":"96-63","name":"Battle''s Hollow"},{"id":"94-63","name":"Battle''s
+        Hollow"},{"id":"95-63","name":"Norfolk''s Hollow"},{"id":"94-40","name":"Cliffside"},{"id":"96-40","name":"Dawn''s
+        Eyrie"},{"id":"95-40","name":"Cragtop"},{"id":"1099-99","name":"Hamm''s Lab"},{"id":"1143-99","name":"Zakk''s
+        Lab"},{"id":"1102-99","name":"Lesh''s Lab"},{"id":"1099-100","name":"Bauer
+        Farmstead"},{"id":"1143-100","name":"Gee Farmstead"},{"id":"1102-100","name":"Barrett
+        Farmstead"},{"id":"1099-101","name":"McLain''s Encampment"},{"id":"1143-101","name":"Habib''s
+        Encampment"},{"id":"1102-101","name":"Patrick''s Encampment"},{"id":"1099-102","name":"O''del
+        Academy"},{"id":"1143-102","name":"Kay''li Academy"},{"id":"1102-102","name":"Y''lan
+        Academy"},{"id":"1099-104","name":"Eternal Necropolis"},{"id":"1143-104","name":"Undying
+        Necropolis"},{"id":"1102-104","name":"Deathless Necropolis"},{"id":"1099-105","name":"Crankshaft
+        Depot"},{"id":"1143-105","name":"Flywheel Depot"},{"id":"1102-105","name":"Sparkplug
+        Depot"},{"id":"1099-106","name":"Blistering Undercroft"},{"id":"1143-106","name":"Torrid
+        Undercroft"},{"id":"1102-106","name":"Scorching Undercroft"},{"id":"1099-118","name":"Higgins''s
+        Ascent"},{"id":"1143-118","name":"Higgins''s Ascent"},{"id":"1102-118","name":"Higgins''s
+        Ascent"},{"id":"1099-107","name":"Border"},{"id":"1143-107","name":"Border"},{"id":"1102-107","name":"Border"},{"id":"1099-119","name":"Bearce''s
+        Dwelling"},{"id":"1143-119","name":"Bearce''s Dwelling"},{"id":"1102-119","name":"Bearce''s
+        Dwelling"},{"id":"1099-108","name":"Border"},{"id":"1143-108","name":"Border"},{"id":"1102-108","name":"Border"},{"id":"1099-109","name":"Roy''s
+        Refuge"},{"id":"1143-109","name":"Olivier''s Refuge"},{"id":"1102-109","name":"Norfolk''s
+        Refuge"},{"id":"1099-120","name":"Zak''s Overlook"},{"id":"1143-120","name":"Zak''s
+        Overlook"},{"id":"1102-120","name":"Zak''s Overlook"},{"id":"1099-110","name":"Parched
+        Outpost"},{"id":"1143-110","name":"Barren Outpost"},{"id":"1102-110","name":"Withered
+        Outpost"},{"id":"1099-113","name":"Stoic Rampart"},{"id":"1143-113","name":"Hardened
+        Rampart"},{"id":"1102-113","name":"Impassive Rampart"},{"id":"1099-114","name":"Osprey''s
+        Palace"},{"id":"1143-114","name":"Shrike''s Palace"},{"id":"1102-114","name":"Harrier''s
+        Palace"},{"id":"1099-121","name":"Darra''s Maze"},{"id":"1143-121","name":"Darra''s
+        Maze"},{"id":"1102-121","name":"Darra''s Maze"},{"id":"1099-115","name":"Boettiger''s
+        Hideaway"},{"id":"1143-115","name":"Berdrow''s Hideaway"},{"id":"1102-115","name":"Hughe''s
+        Hideaway"},{"id":"1099-122","name":"Tilly''s Encampment"},{"id":"1143-122","name":"Tilly''s
+        Encampment"},{"id":"1102-122","name":"Tilly''s Encampment"},{"id":"1099-116","name":"Dustwhisper
+        Well"},{"id":"1143-116","name":"Lastgasp Well"},{"id":"1102-116","name":"Smashedhope
+        Well"},{"id":"1099-117","name":"Citadel"},{"id":"1143-117","name":"Citadel"},{"id":"1102-117","name":"Citadel"},{"id":"968-98","name":"Wurm
+        Tunnel"},{"id":"968-96","name":"Airport"},{"id":"968-82","name":"Thunder Hollow
+        Reactor"},{"id":"968-93","name":"Forge"},{"id":"968-80","name":"Overgrown
+        Fane Reactor"},{"id":"968-94","name":"Shrine"},{"id":"968-90","name":"Altar"},{"id":"968-97","name":"Workshop"},{"id":"968-81","name":"Arid
+        Fortress Reactor"},{"id":"968-127","name":"Overgrown Docks"},{"id":"968-83","name":"Stonegaze
+        Spire Reactor"},{"id":"968-95","name":"Bell Tower"},{"id":"968-91","name":"Observatory"},{"id":"968-78","name":"Overgrown
+        Fane"},{"id":"968-88","name":"Arid Fortress"},{"id":"968-89","name":"Tytone
+        Perch"},{"id":"968-79","name":"Thunder Hollow"},{"id":"968-85","name":"Tytone
+        Perch Reactor"},{"id":"968-77","name":"Inferno''s Needle"},{"id":"968-87","name":"Stonegaze
+        Spire"},{"id":"968-84","name":"Inferno''s Needle Reactor"},{"id":"968-128","name":"Frostreach
+        Docks"},{"id":"968-129","name":"Badlands Docks"},{"id":"968-92","name":"Statuary"},{"id":"38-11","name":"Aldon''s
+        Ledge"},{"id":"38-123","name":"Molevekian Delve"},{"id":"38-1","name":"Overlook"},{"id":"38-15","name":"Langor
+        Gulch"},{"id":"38-124","name":"Hill"},{"id":"38-3","name":"Lowlands"},{"id":"38-17","name":"Mendon''s
+        Gap"},{"id":"38-7","name":"Danelon Passage"},{"id":"38-125","name":"Orgath
+        Uplands"},{"id":"38-126","name":"Darkrait Inlet"},{"id":"38-9","name":"Stonemist
+        Castle"},{"id":"38-5","name":"Pangloss Rise"},{"id":"38-21","name":"Durios
+        Gulch"},{"id":"38-20","name":"Veloka Slope"},{"id":"38-14","name":"Klovan
+        Gully"},{"id":"38-13","name":"Jerrifer''s Slough"},{"id":"38-6","name":"Speldan
+        Clearcut"},{"id":"38-2","name":"Valley"},{"id":"38-12","name":"Wildcreek Run"},{"id":"38-16","name":"Quentin
+        Lake"},{"id":"38-22","name":"Bravost Escarpment"},{"id":"38-19","name":"Ogrewatch
+        Cut"},{"id":"38-4","name":"Golanta Clearing"},{"id":"38-8","name":"Umberglade
+        Woods"},{"id":"38-10","name":"Rogue''s Quarry"},{"id":"38-130","name":"Hill"},{"id":"38-18","name":"Anzalias
+        Pass"},{"id":"38-131","name":"Hill"}]'
     http_version: 
-  recorded_at: Mon, 30 Mar 2015 11:29:03 GMT
+  recorded_at: Wed, 13 Jun 2018 22:10:49 GMT
 recorded_with: VCR 2.9.3

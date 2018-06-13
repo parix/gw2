@@ -17,13 +17,15 @@ describe GW2::Skins do
 
   describe ".details" do
     before :each do
-      @skin_details = {"name"=>"Shadow Hammer",
-                       "type"=>"Weapon",
-                       "flags"=>["ShowInWardrobe"],
-                       "restrictions"=>[],
-                       "id"=>5904,
-                       "icon"=>"https://render.guildwars2.com/file/0766F6FB807B2821C5264ED7781FA7F8DE66A60E/960252.png",
-                       "details"=>{"type"=>"Hammer", "damage_type"=>"Physical"}
+      @skin_details = {
+        "name" => "Shadow Hammer",
+        "rarity" => "Basic",
+        "type" => "Weapon",
+        "flags" => ["ShowInWardrobe"],
+        "restrictions" => [],
+        "id" => 5904,
+        "icon" => "https://render.guildwars2.com/file/0766F6FB807B2821C5264ED7781FA7F8DE66A60E/960252.png",
+        "details" => { "type" => "Hammer", "damage_type" => "Physical" }
       }
     end
 

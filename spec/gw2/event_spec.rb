@@ -12,7 +12,7 @@ describe GW2::Event do
     end
 
     it "returns the names of all events", :vcr do
-      expect(GW2::Event.event_names).to include(@event)
+      expect { GW2::Event.event_names }.to raise_error(GW2::Disabled)
     end
   end
 

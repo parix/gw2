@@ -18,25 +18,65 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Wed, 13 Jun 2018 22:10:42 GMT
       Content-Type:
       - application/json; charset=utf-8
+      Content-Length:
+      - '293'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public,max-age=3600
       Content-Language:
       - en
+      Expires:
+      - Wed, 13 Jun 2018 23:10:42 GMT
       Vary:
       - Accept-Encoding
       Server:
-      - Microsoft-IIS/7.5
-      Access-Control-Allow-Origin:
-      - "*"
+      - Quaggans
+      X-Result-Total:
+      - '60871'
+      Access-Control-Expose-Headers:
+      - X-Result-Total
+      X-Rate-Limit-Limit:
+      - '600'
       X-Content-Type-Options:
       - nosniff
-      Date:
-      - Mon, 30 Mar 2015 11:29:00 GMT
-      Content-Length:
-      - '252'
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Powered-By:
+      - ARR/2.5
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
     body:
-      encoding: UTF-8
-      string: '{"name":"Lemongrass","description":"Ingredient","type":"CraftingMaterial","level":80,"rarity":"Basic","vendor_value":9,"game_types":["Activity","Dungeon","Pve","Wvw"],"flags":[],"restrictions":[],"id":12546,"icon":"https://render.guildwars2.com/file/DF5612F93A11DB5F53FECA523F50D15DBF5A9AA5/219490.png"}'
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "name": "Lemongrass",
+          "description": "Ingredient",
+          "type": "CraftingMaterial",
+          "level": 80,
+          "rarity": "Basic",
+          "vendor_value": 9,
+          "game_types": [
+            "Activity",
+            "Wvw",
+            "Dungeon",
+            "Pve"
+          ],
+          "flags": [],
+          "restrictions": [],
+          "id": 12546,
+          "chat_link": "[&AgECMQAA]",
+          "icon": "https://render.guildwars2.com/file/DF5612F93A11DB5F53FECA523F50D15DBF5A9AA5/219490.png"
+        }
     http_version: 
-  recorded_at: Mon, 30 Mar 2015 11:29:01 GMT
+  recorded_at: Wed, 13 Jun 2018 22:10:42 GMT
 recorded_with: VCR 2.9.3
