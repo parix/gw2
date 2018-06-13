@@ -3,7 +3,7 @@ module GW2
     extend Resource
 
     def self.details(query = {})
-      get("/guild_details.json", query)
+      get("/guild_details.json", query: query)
     end
   end
 end

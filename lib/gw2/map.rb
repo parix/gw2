@@ -11,11 +11,11 @@ module GW2
     end
 
     def self.floor(continent_id, floor)
-      get("/map_floor.json", { continent_id: continent_id, floor: floor })
+      get("/map_floor.json", query: { continent_id: continent_id, floor: floor })
     end
 
     def self.continents(continent_id="all")
-      get("/continents.json", { ids: continent_id})
+      get("/continents.json", query: { ids: continent_id })
     end
   end
 end

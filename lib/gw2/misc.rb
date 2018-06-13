@@ -7,7 +7,7 @@ module GW2
     end
 
     def self.files
-      get("/files.json", {ids: "all"})
+      get("/files.json", query: { ids: "all" })
     end
 
     def self.worlds
